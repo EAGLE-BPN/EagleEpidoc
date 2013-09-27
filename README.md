@@ -3,7 +3,7 @@ EagleEpidoc
 
 Sample files from Eagle projects going to Epidoc: for people with more experience to check
 
-Schema... v.1.0 is a text file actually where we ask projects to export their databases. That is way there are comments into attributes... 
+schema-example v.1.0 is a text file actually where we ask projects to export their databases. That is way there are comments into attributes... 
 
 the mapping of all databases can be found here: http://goo.gl/VNxFDs
 
