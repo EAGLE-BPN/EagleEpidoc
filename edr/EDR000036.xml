@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="la" xml:base="ex-epidoctemplate.xml">
+		<teiHeader type="text">
+			<fileDesc>
+				<titleStmt>
+				<title>EDR000036</title>
+				</titleStmt>  
+				<publicationStmt>
+				<authority>Epigraphic Database Roma</authority>
+				<idno type="URI">http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR000036</idno>
+				<idno type="URI"/>
+				<availability default="false" status="unknown">
+					<licence target=" http://www.europeana.eu/rights/rr-f/">Reserved Rights - Free access via EDR</licence>
+				</availability>
+				</publicationStmt>
+				<sourceDesc default="false">
+				<msDesc>
+					<msIdentifier>
+						<country>
+						<placeName type="modernCountry" instant="false" full="yes">I</placeName>
+						</country>
+						<region>
+						<placeName type="modern" instant="false" full="yes"/>
+						</region>
+						<settlement>
+						<placeName instant="false" full="yes">Roma</placeName>                     
+						</settlement>
+						<repository>Roma, Museo Nazionale Romano, inv. 121326</repository>
+						<collection/>
+						<idno/>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+						<supportDesc>
+							<support>
+								<objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">stela</objectType>
+								<material ref="http://www.eagle-network.eu/voc/material/lod/48">marmor</material>
+								<p part="N"/>
+								<dimensions unit="cm">
+								<height>0.00</height>
+								<width>0.00</width>
+								<depth>0.00</depth>
+								</dimensions>
+								<rs type="decoration"/>
+								<rs type="statPreserv"/>
+							</support>
+						</supportDesc>
+						<layoutDesc>
+							<layout>
+								<rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">scalpro</rs>
+							</layout>
+						</layoutDesc>
+						</objectDesc>
+						<handDesc>
+						<handNote>
+							<width unit="cm"/>
+							<height unit="cm"/>
+						</handNote>
+						</handDesc>
+					</physDesc>
+					
+					<history>
+						<origin instant="false">
+
+						<origPlace instant="false">
+							<placeName type="provinceItalicRegion" instant="false" full="yes">Roma</placeName>
+							<placeName instant="false" full="yes">Roma</placeName>
+						</origPlace>
+						<origDate notBefore-custom="71" notAfter-custom="130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" instant="false">71 AD - 71 AD</origDate>
+						
+						</origin>
+						<provenance type="found"> 
+						<placeName instant="false" full="yes">Roma, via Tiburtina 965 bis</placeName>
+						</provenance>
+					</history>
+				</msDesc>
+				</sourceDesc>
+			</fileDesc>
+				
+			<encodingDesc>
+				<p part="N">Marked-up according to the EpiDoc Guidelines</p>
+				<classDecl>
+				<taxonomy>
+					<category xml:id="representation">
+						<catDesc>Digitized other representations</catDesc>
+					</category>
+				</taxonomy>
+				</classDecl>
+			</encodingDesc>
+			<profileDesc>
+				<textClass default="false">
+		<keywords>
+		<term ref="http://www.eagle-network.eu/voc/typeins/lod/92">sepulcralis</term>
+		</keywords>
+		</textClass>
+
+				<langUsage default="false">
+				<language ident="ar">Arabic</language>
+				<language ident="en">English</language>
+				<language ident="fr">French</language>
+				<language ident="de">German</language>
+				<language ident="grc">Ancient Greek</language>
+				<language ident="grc-Latn">Transliterated Greek</language>
+				<language ident="el">Modern Greek</language>
+				<language ident="he">Hebrew</language>
+				<language ident="it">Italian</language>
+				<language ident="la">Latin</language>
+				<language ident="sp">Spanish</language>
+				</langUsage>
+			<creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+			<revisionDesc status="draft">
+			<change when="1970-01-01" who="LAURA CAPURSO" status="draft">
+			</change>
+
+			</revisionDesc>
+		</teiHeader>
+		
+			<facsimile>
+			
+					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/1/000036.jpg">
+						<desc>Stele sepolcrale di Flavia Veneria</desc>
+					</graphic>
+				
+			</facsimile>
+			
+		<text>
+			<body>
+					
+				<div type="bibliography" part="N" org="uniform" sample="complete">
+				<listBibl default="false">
+		
+					<bibl default="false" status="draft">
+						Not. Sc. 1945, p. 77, nr. 1 (C. Caprino) (1)
+					</bibl> 
+			
+				</listBibl>
+				</div>
+				
+				
+				<div type="edition" xml:lang="la" part="N" org="uniform" sample="complete"><head>Text</head><ab><lb n="1"/>
+				<expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>.<lb n="2"/>Flaviae Veneriae<lb n="3"/>coniugi et<lb n="4"/>Flaviae Alexandri<lb break="no" n="5"/> ae filiae et<lb n="6"/>Flaviae Didyme<lb n="7"/>coniugi.<lb n="8"/><expan><abbr>T</abbr><ex>itus</ex></expan> F〈l〉avius Alexander<lb n="9"/>bene merentibus<lb n="10"/>fecit et sibi et suis.
+				</ab></div>
+
+				<div type="apparatus" part="N" org="uniform" sample="complete">
+		
+					<p part="N">
+						Textus secundum (1), contulit ad imaginem archivii photographici Instituti Epigraphiae Latinae (Roma) Capurso a. 2002.
+					</p> 
+			
+					<p part="N">
+						
+					</p> 
+			
+				</div>
+			
+				<div type="commentary" part="N" org="uniform" sample="complete">
+				<p part="N"/>
+				</div>
+
+			</body>
+		</text>
+		</TEI>

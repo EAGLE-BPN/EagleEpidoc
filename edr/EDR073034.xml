@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="la" xml:base="ex-epidoctemplate.xml">
+		<teiHeader type="text">
+			<fileDesc>
+				<titleStmt>
+				<title>EDR073034</title>
+				</titleStmt>  
+				<publicationStmt>
+				<authority>Epigraphic Database Roma</authority>
+				<idno type="URI">http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR073034</idno>
+				<idno type="URI"/>
+				<availability default="false" status="unknown">
+					<licence target=" http://www.europeana.eu/rights/rr-f/">Reserved Rights - Free access via EDR</licence>
+				</availability>
+				</publicationStmt>
+				<sourceDesc default="false">
+				<msDesc>
+					<msIdentifier>
+						<country>
+						<placeName type="modernCountry" instant="false" full="yes">I</placeName>
+						</country>
+						<region>
+						<placeName type="modern" instant="false" full="yes"/>
+						</region>
+						<settlement>
+						<placeName instant="false" full="yes">Sepino (Campobasso)</placeName>                     
+						</settlement>
+						<repository>Sepino (Campobasso), località Altilia, area archeologica, in una casa nei pressi del foro (reimpiego)</repository>
+						<collection/>
+						<idno/>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+						<supportDesc>
+							<support>
+								<objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/53">basis?</objectType>
+								<material ref="http://www.eagle-network.eu/voc/material/lod/2">lapis</material>
+								<p part="N"/>
+								<dimensions unit="cm">
+								<height>110.00</height>
+								<width>76.00</width>
+								<depth>42.00</depth>
+								</dimensions>
+								<rs type="decoration"/>
+								<rs type="statPreserv" ref="http://www.eagle-network.eu/voc/statepreserv/lod/13">tit. integer</rs>
+							</support>
+						</supportDesc>
+						<layoutDesc>
+							<layout>
+								<rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">scalpro</rs>
+							</layout>
+						</layoutDesc>
+						</objectDesc>
+						<handDesc>
+						<handNote>
+							<width unit="cm"/>
+							<height unit="cm">4-6,5</height>
+						</handNote>
+						</handDesc>
+					</physDesc>
+					
+					<history>
+						<origin instant="false">
+
+						<origPlace instant="false">
+							<placeName type="provinceItalicRegion" instant="false" full="yes">Sam</placeName>
+							<placeName instant="false" full="yes">Saepinum</placeName>
+						</origPlace>
+						<origDate notBefore-custom="88" notAfter-custom="100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" instant="false">88 AD - 88 AD</origDate>
+						
+						</origin>
+						<provenance type="found"> 
+						<placeName instant="false" full="yes">Sepino (Campobasso), località Altilia, area archeologica, nei pressi del foro, a. 1922</placeName>
+						</provenance>
+					</history>
+				</msDesc>
+				</sourceDesc>
+			</fileDesc>
+				
+			<encodingDesc>
+				<p part="N">Marked-up according to the EpiDoc Guidelines</p>
+				<classDecl>
+				<taxonomy>
+					<category xml:id="representation">
+						<catDesc>Digitized other representations</catDesc>
+					</category>
+				</taxonomy>
+				</classDecl>
+			</encodingDesc>
+			<profileDesc>
+				<textClass default="false">
+		<keywords>
+		<term ref="http://www.eagle-network.eu/voc/typeins/lod/232">honorarius?</term>
+		</keywords>
+		</textClass>
+
+				<langUsage default="false">
+				<language ident="ar">Arabic</language>
+				<language ident="en">English</language>
+				<language ident="fr">French</language>
+				<language ident="de">German</language>
+				<language ident="grc">Ancient Greek</language>
+				<language ident="grc-Latn">Transliterated Greek</language>
+				<language ident="el">Modern Greek</language>
+				<language ident="he">Hebrew</language>
+				<language ident="it">Italian</language>
+				<language ident="la">Latin</language>
+				<language ident="sp">Spanish</language>
+				</langUsage>
+			<creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+			<revisionDesc status="draft">
+			<change when="1970-01-01" who="SIMONE DI MAURO" status="draft">
+			</change>
+
+			</revisionDesc>
+		</teiHeader>
+		
+			<facsimile>
+			
+					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/73/073034.jpg">
+						<desc>Epigrafe onoraria con dedica al console L. Neratius Priscus</desc>
+					</graphic>
+				
+			</facsimile>
+			
+		<text>
+			<body>
+					
+				<div type="bibliography" part="N" org="uniform" sample="complete">
+				<listBibl default="false">
+		
+					<bibl default="false" status="draft">
+						Not. Sc., 1926, pp. 244-245, nr. 1 - AE 1927 (1)
+					</bibl> 
+			
+					<bibl default="false" status="draft">
+						AE 1927, 0117 (2)
+					</bibl> 
+			
+					<bibl default="false" status="draft">
+						M. Corbier, L'Aerarium Saturni et l'aerarium militare. Administration et prosopographie sénatoriale (Coll. de l'École Fr. de Rome 24), Paris - Roma 1974, p. 101, nr. 2 (3)
+					</bibl> 
+			
+					<bibl default="false" status="draft">
+						Atti Ac. Napoli, 87, 1976, pp. 19, 23 (G. Camodeca) (4)
+					</bibl> 
+			
+					<bibl default="false" status="draft">
+						Saepinum. Museo documentario dell'Altilia, Campobasso 1982, p. 43 (M. Gaggiotti) (5)
+					</bibl> 
+			
+					<bibl default="false" status="draft">
+						HD025300 (A. Scheithauer) (6)
+					</bibl> 
+			
+				</listBibl>
+				</div>
+				
+				
+				<div type="edition" xml:lang="la" part="N" org="uniform" sample="complete"><head>Text</head><ab><lb n="1"/>
+				<expan><abbr>L</abbr><ex>ucio</ex></expan> Neratio <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan><lb n="2"/><expan><abbr>Vol</abbr><ex>tinia</ex></expan> Prisco,<lb n="3"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>aer</abbr><ex>arii</ex></expan> <expan><abbr>Sat</abbr><ex>urni</ex></expan>, có<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan>,<lb n="4"/><expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> in <expan><abbr>prov</abbr><ex>incia</ex></expan><lb n="5"/>Pannoniá;<lb n="6"/>ex testamentó<lb n="7"/>Hymeti <expan><abbr>lib</abbr><ex>erti</ex></expan>.
+				</ab></div>
+
+				<div type="apparatus" part="N" org="uniform" sample="complete">
+		
+					<p part="N">
+						Textus secundum (1), contulit M. Buonocore a. 2013 (ex schedis).
+					</p> 
+			
+					<p part="N">
+						Specchio epigrafico: 87 x 52 cm.
+					</p> 
+			
+					<p part="N">
+						Su L. Neratius Priscus cfr. EDR133066.
+					</p> 
+			
+				</div>
+			
+				<div type="commentary" part="N" org="uniform" sample="complete">
+				<p part="N"/>
+				</div>
+
+			</body>
+		</text>
+		</TEI>

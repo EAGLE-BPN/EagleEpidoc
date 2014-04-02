@@ -1,0 +1,2110 @@
+<?xml version="1.0" encoding="UTF-8"?><elte><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>sarcophagus of T. Flavius Iulianus</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>EÖTVÖS LORÁND TUDOMÁNYEGYETEM</authority>
+                <idno type="URI">edh-www.adw.uni-heidelberg.de/edh/inschrift/ELTE/000002.xml</idno>
+                <idno type="TM">www.trismegistos.org/text/</idno>
+                <idno type="EDH">edh-www.adw.uni-heidelberg.de/edh/inschrift/HD039458</idno>
+                <idno type="EDCS">EDCS-09900222</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.
+</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <placeName type="modern">Hungary</placeName>
+                        </country>
+                        <region>
+                            <placeName type="modern">Limestone</placeName>
+                        </region>
+                        <settlement>
+                            <placeName>Komárom, Klapka György Múz.</placeName>                     
+                        </settlement>
+                        <repository>Komárom, Klapka György Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+<objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1446http://www.eagle-network.eu/voc/objtyp/lod/214">Sarcophagus</objectType>
+                                    <material>Limestone</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height atMost="82">82</height>
+                                        <width atMost="100">100</width>
+                                        <depth atMost="222">222</depth>
+                                    </dimensions>
+                                    <rs type="decoration"/>
+                                    <rs type="statPreserv">
+                                        </rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
+                                        chiselled</rs>
+                                    <dimensions>
+                                        <width unit="cm"/>
+                                        <height unit="cm"/>
+                                    </dimensions>
+                                    <rs type="metre"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                               ; hedera
+                                <height unit="cm"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName ref="www.trismegistos.org/place/016277">Brigetio</placeName>
+                                <placeName type="provincItalicRegion" ref="www.trismegistos.org/place/016532">Pannonia superior</placeName>
+                            </origPlace>
+                              <origDate notBefore-custom="0100" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">100-200</origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date>1963</date>
+                                <placeName>Komárom, 50 m from the legionary fortress</placeName> 
+                            <placeName type="modernRegion">Komárom-Esztergom megye</placeName>
+                            <placeName type="modernCountry">Hungary</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+                <textClass>
+<keywords>
+    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Epitaph</term>
+</keywords>
+    </textClass>
+
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-04-02" who="ELTE">ELTE</change>
+        </revisionDesc>
+    </teiHeader>
+         <facsimile>
+
+    <graphic n="HD039458" url="https://commons.wikimedia.org/wiki/File:HD039458.png">
+       <desc> HD039458
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD039458_1" url="https://commons.wikimedia.org/wiki/File:HD039458_1.png">
+       <desc> HD039458_1
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD039458_2" url="https://commons.wikimedia.org/wiki/File:HD039458_2.png">
+       <desc> HD039458_2
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD039458_3" url="https://commons.wikimedia.org/wiki/File:HD039458_3.png">
+       <desc> HD039458_3
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+            
+        </facsimile>
+        
+    
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+<bibl>RIU 0552, Abb. 552 (Foto u. Zeichnung).</bibl>
+                </listBibl>
+            </div>
+            
+            
+            <div type="edition" xml:lang="la">
+              <head>Text</head>
+                
+  
+            
+
+    <ab>
+                        <lb n="1"/>
+                        
+                        
+                            
+                            <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan><lb n="2"/><expan><abbr>T</abbr><ex>itus</ex></expan> <expan><abbr>Fl</abbr><ex>avius</ex></expan> Iulianus q<expan><ex>u</ex><abbr>ondam</abbr></expan> |(centurio) <expan><abbr>leg</abbr><ex>ionis</ex></expan> I <expan><abbr>adi</abbr><ex>utricis</ex></expan><lb n="3"/><expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <expan><abbr>ann</abbr><ex>orum</ex></expan> LXVIII <expan><abbr>T</abbr><ex>itus</ex></expan> <expan><abbr>Fl</abbr><ex>avius</ex></expan> Iulianus<lb n="4"/>et <expan><abbr>Fl</abbr><ex>avia</ex></expan> Iulia <expan><abbr>fili</abbr><ex>i</ex></expan> patri carissimo<lb n="5"/>adque pientissimo<lb n="6"/><expan><abbr>o</abbr><ex>ptamus</ex></expan> <expan><abbr>s</abbr><ex>it</ex></expan> <expan><abbr>t</abbr><ex>ibi</ex></expan> <expan><abbr>t</abbr><ex>erra</ex></expan> <expan><abbr>l</abbr><ex>evis</ex></expan>
+                        
+                        
+                    </ab>
+
+                
+                
+            </div>
+
+            
+           <div type="translation" xml:lang="hu">
+                <p>                    A halotti árnyaknak. Titus Flavius Iulianus, a legio I Adiutrix Pia Fidelis egykori századosa, élt 68 évet. Titus Flavius Iulianus és Flavia Iulia, a gyermekei (állították) igen drága és igen jámbor atyjuknak. Kívánjuk, hogy legyen neked könnyű a föld.</p>
+                    <desc><ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+                </desc>
+            </div>
+            
+
+        </body>
+    </text>
+</TEI><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>sarcophagus of Septimius Messor</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>EÖTVÖS LORÁND TUDOMÁNYEGYETEM</authority>
+                <idno type="URI">edh-www.adw.uni-heidelberg.de/edh/inschrift/ELTE/000003.xml</idno>
+                <idno type="TM">www.trismegistos.org/text/</idno>
+                <idno type="EDH">edh-www.adw.uni-heidelberg.de/edh/inschrift/HD039545</idno>
+                <idno type="EDCS">EDCS-09900237</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.
+</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <placeName type="modern">Hungary</placeName>
+                        </country>
+                        <region>
+                            <placeName type="modern">Limestone</placeName>
+                        </region>
+                        <settlement>
+                            <placeName>Komárom, Klapka György Múz.</placeName>                     
+                        </settlement>
+                        <repository>Komárom, Klapka György Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+<objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1446http://www.eagle-network.eu/voc/objtyp/lod/214">Sarcophagus</objectType>
+                                    <material>Limestone</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height atMost="80-8">80-8</height>
+                                        <width atMost="106">106</width>
+                                        <depth atMost="226">226</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/307">tabula ansata</rs>
+                                    <rs type="statPreserv">
+                                        </rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
+                                        chiselled</rs>
+                                    <dimensions>
+                                        <width unit="cm"/>
+                                        <height unit="cm"/>
+                                    </dimensions>
+                                    <rs type="metre"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                               ; 
+                                <height unit="cm">6-7</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName ref="www.trismegistos.org/place/016277">Brigetio</placeName>
+                                <placeName type="provincItalicRegion" ref="www.trismegistos.org/place/016532">Pannonia superior</placeName>
+                            </origPlace>
+                              <origDate notBefore-custom="0193" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">193-235</origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date>1963</date>
+                                <placeName>Komárom, southwards from the legionary fortress</placeName> 
+                            <placeName type="modernRegion">Komárom-Esztergom megye</placeName>
+                            <placeName type="modernCountry">Hungary</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+                <textClass>
+<keywords>
+    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Epitaph</term>
+</keywords>
+    </textClass>
+
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-04-02" who="ELTE">ELTE</change>
+        </revisionDesc>
+    </teiHeader>
+         <facsimile>
+
+    <graphic n="HD039545" url="https://commons.wikimedia.org/wiki/File:HD039545.png">
+       <desc> HD039545
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD039545_1" url="https://commons.wikimedia.org/wiki/File:HD039545_1.png">
+       <desc> HD039545_1
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+            
+        </facsimile>
+        
+    
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+<bibl>RIU 0583, Abb. 583 (Foto u. Zeichnung).</bibl>
+                </listBibl>
+            </div>
+            
+            
+            <div type="edition" xml:lang="la">
+              <head>Text</head>
+                
+  
+            
+                    
+                        <div n="1" type="textpart"><ab><lb n="1"/>
+                                
+                                
+                                    
+                                    <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> 
+                                
+                                
+                            </ab>
+                        </div>
+                    
+                        <div n="2" type="textpart"><ab><lb n="1"/>
+                                
+                                
+                                    
+                                     <expan><abbr>Sep</abbr><ex>timius</ex></expan> Messor <expan><abbr>vet</abbr><ex>eranus</ex></expan> Ae<supplied reason="omitted">l</supplied>(iae) Magnill<expan><ex>a</ex><abbr>e</abbr></expan> co<lb break="no" n="2"/>niugi <expan><abbr>an</abbr><ex>norum</ex></expan> L <expan><abbr>Sepp</abbr><ex>timiis</ex></expan> Messorino<lb n="3"/>et Primo fili<expan><ex>i</ex><abbr>s</abbr></expan> bene merentibus
+                                
+                                
+                            </ab>
+                        </div>
+                    
+                
+                
+            </div>
+
+            
+           <div type="translation" xml:lang="hu">
+                <p>                    A halotti árnyaknak. Septimius Messor, kiszolgált katona (állította) feleségének, Aelia Magnillának, aki 50évet élt, és érdemekben gazdagon elhunyt fiainak, Lucius Septimius Messorinusnak és Lucius Septimius Primusnak.</p>
+                    <desc><ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+                </desc>
+            </div>
+            
+
+        </body>
+    </text>
+</TEI><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>grave monument of Valeria Valentina</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>EÖTVÖS LORÁND TUDOMÁNYEGYETEM</authority>
+                <idno type="URI">edh-www.adw.uni-heidelberg.de/edh/inschrift/ELTE/000006.xml</idno>
+                <idno type="TM">www.trismegistos.org/text/</idno>
+                <idno type="EDH">edh-www.adw.uni-heidelberg.de/edh/inschrift/HD039571</idno>
+                <idno type="EDCS">EDCS-09900245</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.
+</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <placeName type="modern">Hungary</placeName>
+                        </country>
+                        <region>
+                            <placeName type="modern">Limestone</placeName>
+                        </region>
+                        <settlement>
+                            <placeName>Komárom, Klapka György Múz.</placeName>                     
+                        </settlement>
+                        <repository>Komárom, Klapka György Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+<objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/230">Grave monument</objectType>
+                                    <material>Limestone</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height atMost="91">91</height>
+                                        <width atMost="252">252</width>
+                                        <depth atMost="25">25</depth>
+                                    </dimensions>
+                                    <rs type="decoration"/>
+                                    <rs type="statPreserv">
+                                        </rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
+                                        chiselled</rs>
+                                    <dimensions>
+                                        <width unit="cm"/>
+                                        <height unit="cm"/>
+                                    </dimensions>
+                                    <rs type="metre"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                               ; 
+                                <height unit="cm">4-6</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName ref="www.trismegistos.org/place/016277">Brigetio</placeName>
+                                <placeName type="provincItalicRegion" ref="www.trismegistos.org/place/016532">Pannonia superior</placeName>
+                            </origPlace>
+                              <origDate notBefore-custom="0192" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">193-250</origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date>1963</date>
+                                <placeName>Komárom, westward fom the legionary fortress</placeName> 
+                            <placeName type="modernRegion">Komárom-Esztergom megye</placeName>
+                            <placeName type="modernCountry">Hungary</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+                <textClass>
+<keywords>
+    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Epitaph</term>
+</keywords>
+    </textClass>
+
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-04-02" who="ELTE">ELTE</change>
+        </revisionDesc>
+    </teiHeader>
+         <facsimile>
+
+    <graphic n="HD039571" url="https://commons.wikimedia.org/wiki/File:HD039571.png">
+       <desc> HD039571
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD039571_1" url="https://commons.wikimedia.org/wiki/File:HD039571_1.png">
+       <desc> HD039571_1
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+            
+        </facsimile>
+        
+    
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+<bibl>RIU 0598, Abb. 598 (Foto u. Zeichnung).</bibl>
+                </listBibl>
+            </div>
+            
+            
+            <div type="edition" xml:lang="la">
+              <head>Text</head>
+                
+  
+            
+
+    <ab>
+                        <lb n="1"/>
+                        
+                        
+                            
+                            <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan><lb n="2"/>Valeriae Valentinae<lb n="3"/>quae <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>ann</abbr><ex>os</ex></expan> XXVII<lb n="4"/>Ulpia Sabina mater<lb n="5"/><expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+                        
+                        
+                    </ab>
+
+                
+                
+            </div>
+
+            
+           <div type="translation" xml:lang="hu">
+                <p>                    A halotti árnyaknak. Valeria Valentinának, aki 27 évet élt, Ulpia Sabina, az anyja állíttatta a síremléket.</p>
+                    <desc><ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+                </desc>
+            </div>
+            
+
+        </body>
+    </text>
+</TEI><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>sarcophagus of Iulia Ursula</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>EÖTVÖS LORÁND TUDOMÁNYEGYETEM</authority>
+                <idno type="URI">edh-www.adw.uni-heidelberg.de/edh/inschrift/ELTE/000009.xml</idno>
+                <idno type="TM">www.trismegistos.org/text/</idno>
+                <idno type="EDH">edh-www.adw.uni-heidelberg.de/edh/inschrift/HD017251</idno>
+                <idno type="EDCS">EDCS-09900227</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.
+</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <placeName type="modern">Hungary</placeName>
+                        </country>
+                        <region>
+                            <placeName type="modern">Limestone</placeName>
+                        </region>
+                        <settlement>
+                            <placeName>Komárom, Klapka György Múz.</placeName>                     
+                        </settlement>
+                        <repository>Komárom, Klapka György Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+<objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1446http://www.eagle-network.eu/voc/objtyp/lod/214">Sarcophagus</objectType>
+                                    <material>Limestone</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height atMost="68">68</height>
+                                        <width atMost="91">91</width>
+                                        <depth atMost="220">220</depth>
+                                    </dimensions>
+                                    <rs type="decoration"/>
+                                    <rs type="statPreserv">
+                                        </rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
+                                        chiselled</rs>
+                                    <dimensions>
+                                        <width unit="cm"/>
+                                        <height unit="cm"/>
+                                    </dimensions>
+                                    <rs type="metre"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                               ; 
+                                <height unit="cm">5,5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName ref="www.trismegistos.org/place/016277">Brigetio</placeName>
+                                <placeName type="provincItalicRegion" ref="www.trismegistos.org/place/016532">Pannonia superior</placeName>
+                            </origPlace>
+                              <origDate notBefore-custom="0100" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">100-200</origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date>1957</date>
+                                <placeName>Komárom, southwards from the legionary fortress</placeName> 
+                            <placeName type="modernRegion">Komárom-Esztergom megye</placeName>
+                            <placeName type="modernCountry">Hungary</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+                <textClass>
+<keywords>
+    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Epitaph</term>
+</keywords>
+    </textClass>
+
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-04-02" who="ELTE">ELTE</change>
+        </revisionDesc>
+    </teiHeader>
+         <facsimile>
+
+    <graphic n="HD017251" url="https://commons.wikimedia.org/wiki/File:HD017251.png">
+       <desc> HD017251
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD017251_1" url="https://commons.wikimedia.org/wiki/File:HD017251_1.png">
+       <desc> HD017251_1
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+            
+        </facsimile>
+        
+    
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+<bibl>AE 1965, 0005.</bibl><bibl> RIU 0562, Abb. 562 (Zeichnung).</bibl><bibl> Barkóczi 1965, 227.</bibl>
+                </listBibl>
+            </div>
+            
+            
+            <div type="edition" xml:lang="la">
+              <head>Text</head>
+                
+  
+            
+
+    <ab>
+                        <lb n="1"/>
+                        
+                        
+                            
+                            <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan><lb n="2"/>Iuliae Ursulae <expan><abbr>M</abbr><ex>arci</ex></expan> Digni Ursu<lb break="no" n="3"/>lus Iustus et Valentinus mat<lb break="no" n="4"/>ri pientissim<expan><ex>a</ex><abbr>e</abbr></expan> ex testamento fi<lb break="no" n="5"/>eri pr<expan><ex>a</ex><abbr>ecepit</abbr></expan> <note>sic</note> per <expan><abbr>Iul</abbr><ex>ium</ex></expan> Avitum<lb n="6"/>libertum
+                        
+                        
+                    </ab>
+
+                
+                
+            </div>
+
+            
+           <div type="translation" xml:lang="hu">
+                <p>                    Iulia Ursula, Marcus Dignus lánya halotti árnyainak. Ursulus Iustus és (Ursulus) Valentinus az igen kötelességtudó anyának. (A síremlék) felépítését Iulius Avitus nevű szabados által végrendeleti úton rendelte el.</p>
+                    <desc><ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+                </desc>
+            </div>
+            
+
+        </body>
+    </text>
+</TEI><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>sarcophagus of Petronia Severian</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>EÖTVÖS LORÁND TUDOMÁNYEGYETEM</authority>
+                <idno type="URI">edh-www.adw.uni-heidelberg.de/edh/inschrift/ELTE/000010.xml</idno>
+                <idno type="TM">www.trismegistos.org/text/</idno>
+                <idno type="EDH">edh-www.adw.uni-heidelberg.de/edh/inschrift/HD016498</idno>
+                <idno type="EDCS">EDCS-09900232</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.
+</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <placeName type="modern">Hungary</placeName>
+                        </country>
+                        <region>
+                            <placeName type="modern">Limestone</placeName>
+                        </region>
+                        <settlement>
+                            <placeName>Komárom, Klapka György Múz.</placeName>                     
+                        </settlement>
+                        <repository>Komárom, Klapka György Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+<objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1446http://www.eagle-network.eu/voc/objtyp/lod/214">Sarcophagus</objectType>
+                                    <material>Limestone</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height atMost="70">70</height>
+                                        <width atMost="96">96</width>
+                                        <depth atMost="215">215</depth>
+                                    </dimensions>
+                                    <rs type="decoration"/>
+                                    <rs type="statPreserv">
+                                        </rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
+                                        chiselled</rs>
+                                    <dimensions>
+                                        <width unit="cm"/>
+                                        <height unit="cm"/>
+                                    </dimensions>
+                                    <rs type="metre"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                               ; 
+                                <height unit="cm">7-6</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName ref="www.trismegistos.org/place/016277">Brigetio</placeName>
+                                <placeName type="provincItalicRegion" ref="www.trismegistos.org/place/016532">Pannonia superior</placeName>
+                            </origPlace>
+                              <origDate notBefore-custom="0211" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">211-235</origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date>1957</date>
+                                <placeName>Komárom, southwards from the legionary fortress</placeName> 
+                            <placeName type="modernRegion">Komárom-Esztergom megye</placeName>
+                            <placeName type="modernCountry">Hungary</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+                <textClass>
+<keywords>
+    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Epitaph</term>
+</keywords>
+    </textClass>
+
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-04-02" who="ELTE">ELTE</change>
+        </revisionDesc>
+    </teiHeader>
+         <facsimile>
+
+    <graphic n="HD016498" url="https://commons.wikimedia.org/wiki/File:HD016498.png">
+       <desc> HD016498
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD016498_1" url="https://commons.wikimedia.org/wiki/File:HD016498_1.png">
+       <desc> HD016498_1
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD016498_2" url="https://commons.wikimedia.org/wiki/File:HD016498_2.png">
+       <desc> HD016498_2
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD016498_3" url="https://commons.wikimedia.org/wiki/File:HD016498_3.png">
+       <desc> HD016498_3
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD016498_4" url="https://commons.wikimedia.org/wiki/File:HD016498_4.png">
+       <desc> HD016498_4
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD016498_5" url="https://commons.wikimedia.org/wiki/File:HD016498_5.png">
+       <desc> HD016498_5
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD016498_6" url="https://commons.wikimedia.org/wiki/File:HD016498_6.png">
+       <desc> HD016498_6
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD016498_7" url="https://commons.wikimedia.org/wiki/File:HD016498_7.png">
+       <desc> HD016498_7
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+            
+        </facsimile>
+        
+    
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+<bibl>AE 1962, 0043.</bibl><bibl> RIU 0573, Abb. 573 (Zeichnung).</bibl><bibl> Kanozsay 1961, 261-263.</bibl>
+                </listBibl>
+            </div>
+            
+            
+            <div type="edition" xml:lang="la">
+              <head>Text</head>
+                
+  
+            
+
+    <ab>
+                        <lb n="1"/>
+                        
+                        
+                            
+                            Petroniae Severinae<lb n="2"/>innocentissim<expan><ex>a</ex><abbr>e</abbr></expan> puellae<lb n="3"/>qu<expan><ex>a</ex><abbr>e</abbr></expan> vixit <expan><abbr>ann</abbr><ex>os</ex></expan> XIII<lb n="4"/><expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Petr</abbr><ex>onius</ex></expan> Nu<expan><ex>n</ex><abbr>dinus</abbr></expan> <expan><abbr>Aug</abbr><ex>ustalis</ex></expan> <expan><abbr>mun</abbr><ex>icipii</ex></expan><lb n="5"/><expan><abbr>Brig</abbr><ex>etionensium</ex></expan> pater filiae dulcis<lb break="no" n="6"/>simae faciendum curavit
+                        
+                        
+                    </ab>
+
+                
+                
+            </div>
+
+            
+           <div type="translation" xml:lang="hu">
+                <p>                    Petronia Severinának, az igen feddhetetlen leánynak, aki 13 évet élt. Apja, Caius Petronius Nu&lt;n?&gt;dinus, Brigetio municipiumának augustalisa állíttatta a síremléket az igen édes leánygyermekének.</p>
+                    <desc><ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+                </desc>
+            </div>
+            
+
+        </body>
+    </text>
+</TEI><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>sarcophagus of L. Retonius Lucius</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>EÖTVÖS LORÁND TUDOMÁNYEGYETEM</authority>
+                <idno type="URI">edh-www.adw.uni-heidelberg.de/edh/inschrift/ELTE/000012.xml</idno>
+                <idno type="TM">www.trismegistos.org/text/</idno>
+                <idno type="EDH">edh-www.adw.uni-heidelberg.de/edh/inschrift/HD020139</idno>
+                <idno type="EDCS">EDCS-29000377</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.
+</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <placeName type="modern">Hungary</placeName>
+                        </country>
+                        <region>
+                            <placeName type="modern">Limestone</placeName>
+                        </region>
+                        <settlement>
+                            <placeName>Komárom, Klapka György Múz.</placeName>                     
+                        </settlement>
+                        <repository>Komárom, Klapka György Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+<objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1446http://www.eagle-network.eu/voc/objtyp/lod/214">Sarcophagus</objectType>
+                                    <material>Limestone</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height atMost="68">68</height>
+                                        <width atMost="103">103</width>
+                                        <depth atMost="225">225</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/307">tabula ansata</rs>
+                                    <rs type="statPreserv">
+                                        </rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
+                                        chiselled</rs>
+                                    <dimensions>
+                                        <width unit="cm"/>
+                                        <height unit="cm"/>
+                                    </dimensions>
+                                    <rs type="metre"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                               ; 
+                                <height unit="cm">4-8</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName ref="www.trismegistos.org/place/016277">Brigetio</placeName>
+                                <placeName type="provincItalicRegion" ref="www.trismegistos.org/place/016532">Pannonia superior</placeName>
+                            </origPlace>
+                              <origDate notBefore-custom="0150" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">150-250</origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date>1886/1887</date>
+                                <placeName>Komárom, between the legionary fortress and Szőny</placeName> 
+                            <placeName type="modernRegion">Komárom-Esztergom megye</placeName>
+                            <placeName type="modernCountry">Hungary</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+                <textClass>
+<keywords>
+    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Epitaph</term>
+</keywords>
+    </textClass>
+
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-04-02" who="ELTE">ELTE</change>
+        </revisionDesc>
+    </teiHeader>
+         <facsimile>
+
+    <graphic n="HD020139" url="https://commons.wikimedia.org/wiki/File:HD020139.png">
+       <desc> HD020139
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD020139_1" url="https://commons.wikimedia.org/wiki/File:HD020139_1.png">
+       <desc> HD020139_1
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+            
+        </facsimile>
+        
+    
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+<bibl>AE 1944, 0116.</bibl><bibl> RIU 0576.</bibl><bibl> CIL 03, 11031.</bibl><bibl> Paulovics 1941, 131.</bibl><bibl> Barkóczi 1944, Nr. 107.</bibl>
+                </listBibl>
+            </div>
+            
+            
+            <div type="edition" xml:lang="la">
+              <head>Text</head>
+                
+  
+            
+                    
+                        <div n="1" type="textpart"><ab><lb n="1"/>
+                                
+                                
+                                    
+                                    <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> 
+                                
+                                
+                            </ab>
+                        </div>
+                    
+                        <div n="2" type="textpart"><ab><lb n="1"/>
+                                
+                                
+                                    
+                                     <expan><abbr>L</abbr><ex>ucio</ex></expan> Retonio Lucio <expan><abbr>q</abbr><ex>uondam</ex></expan> <expan><abbr>p</abbr><ex>rimo</ex></expan> <expan><abbr>p</abbr><ex>ilo</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> I <expan><abbr>a</abbr><ex>diutricis</ex></expan><lb n="2"/>qui <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>ann</abbr><ex>os</ex></expan> LXXVIII <expan><abbr>stip</abbr><ex>endiorum</ex></expan> LVIII<lb n="3"/>Retoni Romanus et <expan><abbr>Saturnin</abbr><ex>us</ex></expan><lb n="4"/>et Lucilla fili f<expan><ex>e</ex><abbr>c</abbr><ex>erunt</ex></expan>
+                                
+                                
+                            </ab>
+                        </div>
+                    
+                
+                
+            </div>
+
+            
+           <div type="translation" xml:lang="hu">
+                <p>                    A halotti árnyaknak. Lucius Retonius Luciusnak, a legio I Adiutrix egykori elsőlándzsásának, aki 78 évet élt, és 58 évet szolgált. Retonius Romanus és (Retonius) Saturninus, valamint Lucilla, a gyermekei állíttatták (a síremléket).</p>
+                    <desc><ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+                </desc>
+            </div>
+            
+
+        </body>
+    </text>
+</TEI><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>sarcophagus of Valerius Corifus</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>EÖTVÖS LORÁND TUDOMÁNYEGYETEM</authority>
+                <idno type="URI">edh-www.adw.uni-heidelberg.de/edh/inschrift/ELTE/000013.xml</idno>
+                <idno type="TM">www.trismegistos.org/text/</idno>
+                <idno type="EDH">edh-www.adw.uni-heidelberg.de/edh/inschrift/HD017248</idno>
+                <idno type="EDCS">EDCS-09900212</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.
+</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <placeName type="modern">Hungary</placeName>
+                        </country>
+                        <region>
+                            <placeName type="modern">Limestone</placeName>
+                        </region>
+                        <settlement>
+                            <placeName>Komárom, Klapka György Múz.</placeName>                     
+                        </settlement>
+                        <repository>Komárom, Klapka György Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+<objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1446http://www.eagle-network.eu/voc/objtyp/lod/214">Sarcophagus</objectType>
+                                    <material>Limestone</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height atMost="65">65</height>
+                                        <width atMost="88">88</width>
+                                        <depth atMost="213">213</depth>
+                                    </dimensions>
+                                    <rs type="decoration">frame motif</rs>
+                                    <rs type="statPreserv">
+                                        </rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
+                                        chiselled</rs>
+                                    <dimensions>
+                                        <width unit="cm"/>
+                                        <height unit="cm"/>
+                                    </dimensions>
+                                    <rs type="metre"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                               ; 
+                                <height unit="cm">4-7</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName ref="www.trismegistos.org/place/016277">Brigetio</placeName>
+                                <placeName type="provincItalicRegion" ref="www.trismegistos.org/place/016532">Pannonia superior</placeName>
+                            </origPlace>
+                              <origDate notBefore-custom="0211" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">211-250</origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date>1957</date>
+                                <placeName>Komárom, southwards from the legionary fortress</placeName> 
+                            <placeName type="modernRegion">Komárom-Esztergom megye</placeName>
+                            <placeName type="modernCountry">Hungary</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+                <textClass>
+<keywords>
+    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Epitaph</term>
+</keywords>
+    </textClass>
+
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-04-02" who="ELTE">ELTE</change>
+        </revisionDesc>
+    </teiHeader>
+         <facsimile>
+
+    <graphic n="HD017248" url="https://commons.wikimedia.org/wiki/File:HD017248.png">
+       <desc> HD017248
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD017248_1" url="https://commons.wikimedia.org/wiki/File:HD017248_1.png">
+       <desc> HD017248_1
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD017248_2" url="https://commons.wikimedia.org/wiki/File:HD017248_2.png">
+       <desc> HD017248_2
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD017248_3" url="https://commons.wikimedia.org/wiki/File:HD017248_3.png">
+       <desc> HD017248_3
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD017248_4" url="https://commons.wikimedia.org/wiki/File:HD017248_4.png">
+       <desc> HD017248_4
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD017248_5" url="https://commons.wikimedia.org/wiki/File:HD017248_5.png">
+       <desc> HD017248_5
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+            
+        </facsimile>
+        
+    
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+<bibl>AE 1965, 0004.</bibl><bibl> RIU 0524</bibl><bibl> Abb. 524 (Foto u. Zeichnung)., Barkóczi 1965, 224.</bibl>
+                </listBibl>
+            </div>
+            
+            
+            <div type="edition" xml:lang="la">
+              <head>Text</head>
+                
+  
+            
+                    
+                        <div n="1" type="textpart"><ab><lb n="1"/>
+                                
+                                
+                                    
+                                    <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan><lb n="2"/>memoriae Valeri Corifi<certainty match="preceding-sibling::node()" locus="value"/> 
+                                
+                                
+                            </ab>
+                        </div>
+                    
+                        <div n="2" type="textpart"><ab><lb n="1"/>
+                                
+                                
+                                    
+                                     <expan><abbr>Val</abbr><ex>erius</ex></expan> Valerius frater <note>sic</note><lb n="2"/><expan><abbr>Aur</abbr><ex>elio</ex></expan> Basso Abbosatis<lb n="3"/>filio qui vixit <expan><abbr>ann</abbr><ex>os</ex></expan> XXVII<lb n="4"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Iulianus proximus<lb n="5"/>eius<lb n="6"/><expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+                                
+                                
+                            </ab>
+                        </div>
+                    
+                
+                
+            </div>
+
+            
+           <div type="translation" xml:lang="hu">
+                <p>                    A halotti árnyaknak. Valerius Corifus emlékére Valerius Valerius, a testvére (állította). Aurelius Bassusnak, Abbosas fiának, aki 27 évet élt, Aurelius Iulianus, a legközelebbi hozzátartozója állíttatta (a síremléket).</p>
+                    <desc><ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+                </desc>
+            </div>
+            
+
+        </body>
+    </text>
+</TEI><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>sarcophagus of C. Iulius Candidianus</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>EÖTVÖS LORÁND TUDOMÁNYEGYETEM</authority>
+                <idno type="URI">edh-www.adw.uni-heidelberg.de/edh/inschrift/ELTE/000014.xml</idno>
+                <idno type="TM">www.trismegistos.org/text/</idno>
+                <idno type="EDH">edh-www.adw.uni-heidelberg.de/edh/inschrift/HD011518</idno>
+                <idno type="EDCS">EDCS-09900225</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.
+</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <placeName type="modern">Hungary</placeName>
+                        </country>
+                        <region>
+                            <placeName type="modern">Limestone</placeName>
+                        </region>
+                        <settlement>
+                            <placeName>Komárom, Klapka György Múz.</placeName>                     
+                        </settlement>
+                        <repository>Komárom, Klapka György Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+<objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1446http://www.eagle-network.eu/voc/objtyp/lod/214">Sarcophagus</objectType>
+                                    <material>Limestone</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height atMost="69">69</height>
+                                        <width atMost="85">85</width>
+                                        <depth atMost="204">204</depth>
+                                    </dimensions>
+                                    <rs type="decoration">frame motif</rs>
+                                    <rs type="statPreserv">
+                                        </rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
+                                        chiselled</rs>
+                                    <dimensions>
+                                        <width unit="cm"/>
+                                        <height unit="cm"/>
+                                    </dimensions>
+                                    <rs type="metre"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                               ; 
+                                <height unit="cm">3-8</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName ref="www.trismegistos.org/place/016277">Brigetio</placeName>
+                                <placeName type="provincItalicRegion" ref="www.trismegistos.org/place/016532">Pannonia superior</placeName>
+                            </origPlace>
+                              <origDate notBefore-custom="0250" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">250-300</origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date>1958</date>
+                                <placeName>Komárom, southwards from the legionary fortress</placeName> 
+                            <placeName type="modernRegion">Komárom-Esztergom megye</placeName>
+                            <placeName type="modernCountry">Hungary</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+                <textClass>
+<keywords>
+    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Epitaph</term>
+</keywords>
+    </textClass>
+
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-04-02" who="ELTE">ELTE</change>
+        </revisionDesc>
+    </teiHeader>
+         <facsimile>
+
+    <graphic n="HD011518" url="https://commons.wikimedia.org/wiki/File:HD011518.png">
+       <desc> HD011518
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD011518_1" url="https://commons.wikimedia.org/wiki/File:HD011518_1.png">
+       <desc> HD011518_1
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD011518_2" url="https://commons.wikimedia.org/wiki/File:HD011518_2.png">
+       <desc> HD011518_2
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD011518_3" url="https://commons.wikimedia.org/wiki/File:HD011518_3.png">
+       <desc> HD011518_3
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD011518_4" url="https://commons.wikimedia.org/wiki/File:HD011518_4.png">
+       <desc> HD011518_4
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD011518_5" url="https://commons.wikimedia.org/wiki/File:HD011518_5.png">
+       <desc> HD011518_5
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD011518_6" url="https://commons.wikimedia.org/wiki/File:HD011518_6.png">
+       <desc> HD011518_6
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+            
+        </facsimile>
+        
+    
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+<bibl>AE 1971, 0322.</bibl><bibl> RIU 0557, Abb. 557 (Zeichnung).</bibl><bibl> Barkóczi 1968, 81.</bibl>
+                </listBibl>
+            </div>
+            
+            
+            <div type="edition" xml:lang="la">
+              <head>Text</head>
+                
+  
+            
+
+    <ab>
+                        <lb n="1"/>
+                        
+                        
+                            
+                            <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan><lb n="2"/><expan><abbr>C</abbr><ex>aio</ex></expan> <expan><abbr>Iul</abbr><ex>io</ex></expan> Candidiano<lb n="3"/><expan><abbr>q</abbr><ex>ui</ex></expan> <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>ann</abbr><ex>os</ex></expan> XVIII<lb n="4"/><expan><abbr>m</abbr><ex>enses</ex></expan> VII omnibus<lb n="5"/><expan><abbr>stud</abbr><ex>iis</ex></expan> <expan><abbr>liberalibu</abbr><ex>s</ex></expan><lb n="6"/>erudito <expan><abbr>Iul</abbr><ex>ius</ex></expan> Cres<lb break="no" n="7"/>ce<expan><ex>n</ex><abbr>s</abbr></expan> <expan><abbr>fil</abbr><ex>io</ex></expan> karissim<lb break="no" n="8"/>mo <note>sic</note> et C<expan><ex>a</ex><abbr>ecilia</abbr></expan> Marcellina<lb n="9"/><expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uraverunt</ex></expan>
+                        
+                        
+                    </ab>
+
+                
+                
+            </div>
+
+            
+           <div type="translation" xml:lang="hu">
+                <p>                    A halotti árnyaknak. Caius Iulius Candidianusnak, aki 18 évet, 7 hónapot élt, és jártas az összes szabad tudományban. Iulius Crescens igen drága fiának és Caecilia Marcellina állíttatták (a síremléket).</p>
+                    <desc><ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+                </desc>
+            </div>
+            
+
+        </body>
+    </text>
+</TEI><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>sarcophagus of M. Aurelius Verus Forensis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>EÖTVÖS LORÁND TUDOMÁNYEGYETEM</authority>
+                <idno type="URI">edh-www.adw.uni-heidelberg.de/edh/inschrift/ELTE/000015.xml</idno>
+                <idno type="TM">www.trismegistos.org/text/</idno>
+                <idno type="EDH">edh-www.adw.uni-heidelberg.de/edh/inschrift/HD017245</idno>
+                <idno type="EDCS">EDCS-09900216</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.
+</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <placeName type="modern">Hungary</placeName>
+                        </country>
+                        <region>
+                            <placeName type="modern">Limestone</placeName>
+                        </region>
+                        <settlement>
+                            <placeName>Komárom, Klapka György Múz.</placeName>                     
+                        </settlement>
+                        <repository>Komárom, Klapka György Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+<objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1446http://www.eagle-network.eu/voc/objtyp/lod/214">Sarcophagus</objectType>
+                                    <material>Limestone</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height atMost="72">72</height>
+                                        <width atMost="93">93</width>
+                                        <depth atMost="224">224</depth>
+                                    </dimensions>
+                                    <rs type="decoration">frame motif</rs>
+                                    <rs type="statPreserv">
+                                        </rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
+                                        chiselled</rs>
+                                    <dimensions>
+                                        <width unit="cm"/>
+                                        <height unit="cm"/>
+                                    </dimensions>
+                                    <rs type="metre"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                               ; 
+                                <height unit="cm">4-7</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName ref="www.trismegistos.org/place/016277">Brigetio</placeName>
+                                <placeName type="provincItalicRegion" ref="www.trismegistos.org/place/016532">Pannonia superior</placeName>
+                            </origPlace>
+                              <origDate notBefore-custom="0200" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">200-235</origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date>1957</date>
+                                <placeName>Komárom, southwards from the legionary fortress</placeName> 
+                            <placeName type="modernRegion">Komárom-Esztergom megye</placeName>
+                            <placeName type="modernCountry">Hungary</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+                <textClass>
+<keywords>
+    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Epitaph</term>
+</keywords>
+    </textClass>
+
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-04-02" who="ELTE">ELTE</change>
+        </revisionDesc>
+    </teiHeader>
+         <facsimile>
+
+    <graphic n="HD017245" url="https://commons.wikimedia.org/wiki/File:HD017245.png">
+       <desc> HD017245
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD017245_1" url="https://commons.wikimedia.org/wiki/File:HD017245_1.png">
+       <desc> HD017245_1
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD017245_2" url="https://commons.wikimedia.org/wiki/File:HD017245_2.png">
+       <desc> HD017245_2
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD017245_3" url="https://commons.wikimedia.org/wiki/File:HD017245_3.png">
+       <desc> HD017245_3
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD017245_4" url="https://commons.wikimedia.org/wiki/File:HD017245_4.png">
+       <desc> HD017245_4
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+            
+        </facsimile>
+        
+    
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+<bibl>AE 1965, 0003.</bibl><bibl> RIU 0536, Abb. 536 (Zeichnung).</bibl><bibl> Barkóczi 1965, 219.</bibl>
+                </listBibl>
+            </div>
+            
+            
+            <div type="edition" xml:lang="la">
+              <head>Text</head>
+                
+  
+            
+
+    <ab>
+                        <lb n="1"/>
+                        
+                        
+                            
+                            <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Aur</abbr><ex>elio</ex></expan> Vero<lb n="2"/>Foren<supplied reason="lost">s</supplied>i qui<lb n="3"/>vixit ann<lb break="no" n="4"/>is XXXIII<lb n="5"/>Aurelia<lb n="6"/>Verina<lb n="7"/>fratri<lb n="8"/>karissimo<lb n="9"/><expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+                        
+                        
+                    </ab>
+
+                
+                
+            </div>
+
+            
+           <div type="translation" xml:lang="hu">
+                <p>                    A halotti árnyaknak. Marcus Aurelius Verus Forensisnek, aki 32 évet élt. Aurelia Verina állíttatta (a síremléket) igen dárga fivérének.</p>
+                    <desc><ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+                </desc>
+            </div>
+            
+
+        </body>
+    </text>
+</TEI><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>sarcophagus of T. Flavius Titianus</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>EÖTVÖS LORÁND TUDOMÁNYEGYETEM</authority>
+                <idno type="URI">edh-www.adw.uni-heidelberg.de/edh/inschrift/ELTE/000017.xml</idno>
+                <idno type="TM">www.trismegistos.org/text/</idno>
+                <idno type="EDH">edh-www.adw.uni-heidelberg.de/edh/inschrift/HD020163</idno>
+                <idno type="EDCS">EDCS-09900224</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.
+</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <placeName type="modern">Hungary</placeName>
+                        </country>
+                        <region>
+                            <placeName type="modern">Limestone</placeName>
+                        </region>
+                        <settlement>
+                            <placeName>Komárom, Klapka György Múz.</placeName>                     
+                        </settlement>
+                        <repository>Komárom, Klapka György Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+<objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1446http://www.eagle-network.eu/voc/objtyp/lod/214">Sarcophagus</objectType>
+                                    <material>Limestone</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height atMost="56">56</height>
+                                        <width atMost="70">70</width>
+                                        <depth atMost="153">153</depth>
+                                    </dimensions>
+                                    <rs type="decoration"/>
+                                    <rs type="statPreserv">
+                                        </rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
+                                        chiselled</rs>
+                                    <dimensions>
+                                        <width unit="cm"/>
+                                        <height unit="cm"/>
+                                    </dimensions>
+                                    <rs type="metre"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                               ; 
+                                <height unit="cm">4-5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName ref="www.trismegistos.org/place/016277">Brigetio</placeName>
+                                <placeName type="provincItalicRegion" ref="www.trismegistos.org/place/016532">Pannonia superior</placeName>
+                            </origPlace>
+                              <origDate notBefore-custom="0193" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">193-235</origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date/>
+                                <placeName>Between Komárom and Nagyherkály</placeName> 
+                            <placeName type="modernRegion">Komárom-Esztergom megye</placeName>
+                            <placeName type="modernCountry">Hungary</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+                <textClass>
+<keywords>
+    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Epitaph</term>
+</keywords>
+    </textClass>
+
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-04-02" who="ELTE">ELTE</change>
+        </revisionDesc>
+    </teiHeader>
+         <facsimile>
+
+    <graphic n="HD020163" url="https://commons.wikimedia.org/wiki/File:HD020163.png">
+       <desc> HD020163
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD020163_1" url="https://commons.wikimedia.org/wiki/File:HD020163_1.png">
+       <desc> HD020163_1
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD020163_2" url="https://commons.wikimedia.org/wiki/File:HD020163_2.png">
+       <desc> HD020163_2
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD020163_3" url="https://commons.wikimedia.org/wiki/File:HD020163_3.png">
+       <desc> HD020163_3
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+            
+        </facsimile>
+        
+    
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+<bibl>AE 1944, 0124.</bibl><bibl> RIU 0554, Abb. 554 (Foto u. Zeichnung).</bibl><bibl> Paulovics 1941, 140.</bibl><bibl> Barkóczi 1944, Nr. 99.</bibl><bibl> CBI 00321.</bibl>
+                </listBibl>
+            </div>
+            
+            
+            <div type="edition" xml:lang="la">
+              <head>Text</head>
+                
+  
+            
+
+    <ab>
+                        <lb n="1"/>
+                        
+                        
+                            
+                            <expan><abbr>T</abbr><ex>ito</ex></expan> <expan><abbr>Fl</abbr><ex>avio</ex></expan> Titiano qui et Eus<lb break="no" n="2"/>ebius <expan><abbr>annor</abbr><ex>um</ex></expan> VIII<lb n="3"/><expan><abbr>T</abbr><ex>itus</ex></expan> <expan><abbr>Fl</abbr><ex>avius</ex></expan> Maturus b<expan><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan><lb n="4"/><expan><abbr>leg</abbr><ex>ati</ex></expan> et Aviania<lb n="5"/>Castilla paren<lb break="no" n="6"/>tes filio raris<expan><ex>s</ex><abbr>imo</abbr></expan>
+                        
+                        
+                    </ab>
+
+                
+                
+            </div>
+
+            
+           <div type="translation" xml:lang="hu">
+                <p>                    A 8 évet élt Titus Flavius Titianusnak, akit Eusebiusnak is hívtak. Titus Flavius Maturus, a legioparancsnok beneficiariusa és Aviania Castilla, a szülők, igen rendkívüli fiuknak.</p>
+                    <desc><ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+                </desc>
+            </div>
+            
+
+        </body>
+    </text>
+</TEI><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>building inscription</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>EÖTVÖS LORÁND TUDOMÁNYEGYETEM</authority>
+                <idno type="URI">edh-www.adw.uni-heidelberg.de/edh/inschrift/ELTE/000060.xml</idno>
+                <idno type="TM">www.trismegistos.org/text/</idno>
+                <idno type="EDH">edh-www.adw.uni-heidelberg.de/edh/inschrift/HD039097</idno>
+                <idno type="EDCS">EDCS-09900159</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.
+</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <placeName type="modern">Hungary</placeName>
+                        </country>
+                        <region>
+                            <placeName type="modern">Limestone</placeName>
+                        </region>
+                        <settlement>
+                            <placeName>Komárom, Klapka György Múz.</placeName>                     
+                        </settlement>
+                        <repository>Komárom, Klapka György Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+<objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/259 http://www.eagle-network.eu/voc/objtyp/lod/257">Slab</objectType>
+                                    <material>Limestone</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height atMost="68">68</height>
+                                        <width atMost="133">133</width>
+                                        <depth atMost="23">23</depth>
+                                    </dimensions>
+                                    <rs type="decoration"/>
+                                    <rs type="statPreserv">
+                                        </rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">
+                                        chiselled</rs>
+                                    <dimensions>
+                                        <width unit="cm"/>
+                                        <height unit="cm"/>
+                                    </dimensions>
+                                    <rs type="metre"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                               ; 
+                                <height unit="cm">9-1</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName ref="www.trismegistos.org/place/016277">Brigetio</placeName>
+                                <placeName type="provincItalicRegion" ref="www.trismegistos.org/place/016532">Pannonia superior</placeName>
+                            </origPlace>
+                              <origDate notBefore-custom="0100" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">100-200</origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date>1958</date>
+                                <placeName>Komárom, southwards from the legionary fortress</placeName> 
+                            <placeName type="modernRegion">Komárom-Esztergom megye</placeName>
+                            <placeName type="modernCountry">Hungary</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+                <textClass>
+<keywords>
+    <term ref="http://www.eagle-network.eu/voc/typeins/lod/86">Building / dedicatory inscription</term>
+</keywords>
+    </textClass>
+
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-04-02" who="ELTE">ELTE</change>
+        </revisionDesc>
+    </teiHeader>
+         <facsimile>
+
+    <graphic n="HD039097" url="https://commons.wikimedia.org/wiki/File:HD039097.png">
+       <desc> HD039097
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+    <graphic n="HD039097_1" url="https://commons.wikimedia.org/wiki/File:HD039097_1.png">
+       <desc> HD039097_1
+          <ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+      </desc>
+   </graphic>
+            
+        </facsimile>
+        
+    
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+<bibl>RIU 0394, Abb. 394 (Foto u. Zeichnung).</bibl>
+                </listBibl>
+            </div>
+            
+            
+            <div type="edition" xml:lang="la">
+              <head>Text</head>
+                
+  
+            
+
+    <ab>
+                        <lb n="1"/>
+                        
+                        
+                            
+                            <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan><lb n="2"/>Brig<surplus>a</surplus>etione<expan><ex>nse</ex><abbr>s</abbr></expan> <note>sic</note><lb n="3"/>publice <expan><abbr>de</abbr><ex>erunt</ex></expan> <expan><abbr>d</abbr><ex>edicaverunt</ex></expan>
+                        
+                        
+                    </ab>
+
+                
+                
+            </div>
+
+            
+           <div type="translation" xml:lang="hu">
+                <p>                    Iuppiter Optimus Maximusnak a brigetióiak nyilvánosan (vagy: közpénzből) adományozták és felajánlották.</p>
+                    <desc><ref type="license" target="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain.</ref>
+                </desc>
+            </div>
+            
+
+        </body>
+    </text>
+</TEI></elte>

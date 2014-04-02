@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="la" xml:base="ex-epidoctemplate.xml">
+		<teiHeader type="text">
+			<fileDesc>
+				<titleStmt>
+				<title>EDR000109</title>
+				</titleStmt>  
+				<publicationStmt>
+				<authority>Epigraphic Database Roma</authority>
+				<idno type="URI">http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR000109</idno>
+				<idno type="URI"/>
+				<availability default="false" status="unknown">
+					<licence target=" http://www.europeana.eu/rights/rr-f/">Reserved Rights - Free access via EDR</licence>
+				</availability>
+				</publicationStmt>
+				<sourceDesc default="false">
+				<msDesc>
+					<msIdentifier>
+						<country>
+						<placeName type="modernCountry" instant="false" full="yes">I</placeName>
+						</country>
+						<region>
+						<placeName type="modern" instant="false" full="yes"/>
+						</region>
+						<settlement>
+						<placeName instant="false" full="yes">Albenga (Savona)</placeName>                     
+						</settlement>
+						<repository>Albenga (Savona), Civico Museo archeologico</repository>
+						<collection/>
+						<idno/>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+						<supportDesc>
+							<support>
+								<objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType>
+								<material ref="http://www.eagle-network.eu/voc/material/lod/48">marmor</material>
+								<p part="N"/>
+								<dimensions unit="cm">
+								<height/>
+								<width/>
+								<depth/>
+								</dimensions>
+								<rs type="decoration"/>
+								<rs type="statPreserv"/>
+							</support>
+						</supportDesc>
+						<layoutDesc>
+							<layout>
+								<rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">scalpro</rs>
+							</layout>
+						</layoutDesc>
+						</objectDesc>
+						<handDesc>
+						<handNote>
+							<width unit="cm"/>
+							<height unit="cm"/>
+						</handNote>
+						</handDesc>
+					</physDesc>
+					
+					<history>
+						<origin instant="false">
+
+						<origPlace instant="false">
+							<placeName type="provinceItalicRegion" instant="false" full="yes">Lig</placeName>
+							<placeName instant="false" full="yes">Albingaunum</placeName>
+						</origPlace>
+						<origDate notBefore-custom="69" notAfter-custom="117" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" instant="false">69 AD - 69 AD</origDate>
+						
+						</origin>
+						<provenance type="found"> 
+						<placeName instant="false" full="yes">Albenga (Savona), Cattedrale</placeName>
+						</provenance>
+					</history>
+				</msDesc>
+				</sourceDesc>
+			</fileDesc>
+				
+			<encodingDesc>
+				<p part="N">Marked-up according to the EpiDoc Guidelines</p>
+				<classDecl>
+				<taxonomy>
+					<category xml:id="representation">
+						<catDesc>Digitized other representations</catDesc>
+					</category>
+				</taxonomy>
+				</classDecl>
+			</encodingDesc>
+			<profileDesc>
+				<textClass default="false">
+		<keywords>
+		<term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ. priv.que</term>
+		</keywords>
+		</textClass>
+
+				<langUsage default="false">
+				<language ident="ar">Arabic</language>
+				<language ident="en">English</language>
+				<language ident="fr">French</language>
+				<language ident="de">German</language>
+				<language ident="grc">Ancient Greek</language>
+				<language ident="grc-Latn">Transliterated Greek</language>
+				<language ident="el">Modern Greek</language>
+				<language ident="he">Hebrew</language>
+				<language ident="it">Italian</language>
+				<language ident="la">Latin</language>
+				<language ident="sp">Spanish</language>
+				</langUsage>
+			<creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+			<revisionDesc status="draft">
+			<change when="1970-01-01" who="STEFANIA VALENTINI" status="draft">
+			</change>
+
+			</revisionDesc>
+		</teiHeader>
+		
+			<facsimile>
+			
+					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/1/000109.jpg">
+						<desc>Opera pubblica</desc>
+					</graphic>
+				
+			</facsimile>
+			
+		<text>
+			<body>
+					
+				<div type="bibliography" part="N" org="uniform" sample="complete">
+				<listBibl default="false">
+		
+					<bibl default="false" status="draft">
+						SupplIt, 04, 1988, p. 258, nr. 7 (con foto) (G. Mennella) (1)
+					</bibl> 
+			
+				</listBibl>
+				</div>
+				
+				
+				<div type="edition" xml:lang="la" part="N" org="uniform" sample="complete"><head>Text</head><ab><lb n="1"/>
+				<gap reason="lost" extent="unknown" unit="character"/>us <supplied reason="lost">- <expan><abbr>f</abbr><ex>ilius</ex><abbr>3</abbr></expan></supplied> V<unclear>e</unclear><gap reason="lost" extent="unknown" unit="character"/><lb n="2"/><supplied reason="lost"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> pr</supplied>ovin<unclear>c</unclear><supplied reason="lost">iae A</supplied>ch<supplied reason="lost">aiae 3</supplied>,<lb n="3"/>[<expan><abbr>leg</abbr><ex>atus</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> p<unclear>r</unclear>(o) <expan><abbr>pr</abbr><ex>aetore</ex></expan> p]<expan><abbr>rovinc</abbr><ex>iae</ex></expan> <supplied reason="lost">Lyciae</supplied> <unclear>e</unclear><supplied reason="lost">t Pamphyl(iae)</supplied>,<lb n="4"/><expan><abbr><supplied reason="lost">le</supplied>g</abbr><ex>atus</ex></expan> Gal<supplied reason="lost">at</supplied>ia<supplied reason="lost">e et Cappa</supplied><unclear>d</unclear>oci<unclear>a</unclear><supplied reason="lost">e 3, <expan><abbr>praet</abbr><ex>or</ex><abbr>3</abbr></expan></supplied>,<lb n="5"/><supplied reason="lost">A</supplied>ppia <unclear>L</unclear>(uci) <supplied reason="lost"><expan><abbr>f</abbr><ex>ilia</ex><abbr>3</abbr></expan></supplied> <gap reason="illegible" quantity="1" unit="character"/> <gap reason="illegible" quantity="1" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/>,<lb n="6"/><supplied reason="lost">fl</supplied>amin<supplied reason="lost">ica</supplied> <unclear>D</unclear><supplied reason="lost">ivae Aug(ustae)</supplied><lb n="7"/>aq<supplied reason="lost">u</supplied>am ex <supplied reason="lost">fonti</supplied>bus sui<supplied reason="lost">s 3</supplied><lb n="8"/>I<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>EN<gap reason="lost" extent="unknown" unit="character"/> lacibus <gap reason="lost" extent="unknown" unit="character"/>
+				</ab></div>
+
+				<div type="apparatus" part="N" org="uniform" sample="complete">
+		
+					<p part="N">
+						Textus secundum (1)
+
+					</p> 
+			
+				</div>
+			
+				<div type="commentary" part="N" org="uniform" sample="complete">
+				<p part="N"/>
+				</div>
+
+			</body>
+		</text>
+		</TEI>

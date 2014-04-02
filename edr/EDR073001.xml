@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="la" xml:base="ex-epidoctemplate.xml">
+		<teiHeader type="text">
+			<fileDesc>
+				<titleStmt>
+				<title>EDR073001</title>
+				</titleStmt>  
+				<publicationStmt>
+				<authority>Epigraphic Database Roma</authority>
+				<idno type="URI">http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR073001</idno>
+				<idno type="URI"/>
+				<availability default="false" status="unknown">
+					<licence target=" http://www.europeana.eu/rights/rr-f/">Reserved Rights - Free access via EDR</licence>
+				</availability>
+				</publicationStmt>
+				<sourceDesc default="false">
+				<msDesc>
+					<msIdentifier>
+						<country>
+						<placeName type="modernCountry" instant="false" full="yes">I</placeName>
+						</country>
+						<region>
+						<placeName type="modern" instant="false" full="yes"/>
+						</region>
+						<settlement>
+						<placeName instant="false" full="yes">Roma</placeName>                     
+						</settlement>
+						<repository>Roma, Museo Nazionale Romano, Terme di Diocleziano, sala V, inv. 106543</repository>
+						<collection/>
+						<idno/>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+						<supportDesc>
+							<support>
+								<objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType>
+								<material ref="http://www.eagle-network.eu/voc/material/lod/48">marmor</material>
+								<p part="N"/>
+								<dimensions unit="cm">
+								<height>172.00</height>
+								<width>48.00</width>
+								<depth>6.00</depth>
+								</dimensions>
+								<rs type="decoration"/>
+								<rs type="statPreserv" ref="http://www.eagle-network.eu/voc/statepreserv/lod/13">tit. integer</rs>
+							</support>
+						</supportDesc>
+						<layoutDesc>
+							<layout>
+								<rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">scalpro</rs>
+							</layout>
+						</layoutDesc>
+						</objectDesc>
+						<handDesc>
+						<handNote>
+							<width unit="cm"/>
+							<height unit="cm">1,2- 2,5</height>
+						</handNote>
+						</handDesc>
+					</physDesc>
+					
+					<history>
+						<origin instant="false">
+
+						<origPlace instant="false">
+							<placeName type="provinceItalicRegion" instant="false" full="yes">Roma</placeName>
+							<placeName instant="false" full="yes">Roma</placeName>
+						</origPlace>
+						<origDate notBefore-custom="198" notAfter-custom="211" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" instant="false">198 AD - 198 AD</origDate>
+						
+						</origin>
+						<provenance type="found"> 
+						<placeName instant="false" full="yes">Roma, via Sicilia 180</placeName>
+						</provenance>
+					</history>
+				</msDesc>
+				</sourceDesc>
+			</fileDesc>
+				
+			<encodingDesc>
+				<p part="N">Marked-up according to the EpiDoc Guidelines</p>
+				<classDecl>
+				<taxonomy>
+					<category xml:id="representation">
+						<catDesc>Digitized other representations</catDesc>
+					</category>
+				</taxonomy>
+				</classDecl>
+			</encodingDesc>
+			<profileDesc>
+				<textClass default="false">
+		<keywords>
+		<term ref="http://www.eagle-network.eu/voc/typeins/lod/79">sacer</term>
+		</keywords>
+		</textClass>
+
+				<langUsage default="false">
+				<language ident="ar">Arabic</language>
+				<language ident="en">English</language>
+				<language ident="fr">French</language>
+				<language ident="de">German</language>
+				<language ident="grc">Ancient Greek</language>
+				<language ident="grc-Latn">Transliterated Greek</language>
+				<language ident="el">Modern Greek</language>
+				<language ident="he">Hebrew</language>
+				<language ident="it">Italian</language>
+				<language ident="la">Latin</language>
+				<language ident="sp">Spanish</language>
+				</langUsage>
+			<creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+			<revisionDesc status="draft">
+			<change when="1970-01-01" who="ANTONELLA FERRARO" status="draft">
+			</change>
+
+			</revisionDesc>
+		</teiHeader>
+		
+			<facsimile>
+			
+					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/73/073001.jpg">
+						<desc/>
+					</graphic>
+				
+					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/73/073001-1.jpg">
+						<desc/>
+					</graphic>
+				
+			</facsimile>
+			
+		<text>
+			<body>
+					
+				<div type="bibliography" part="N" org="uniform" sample="complete">
+				<listBibl default="false">
+		
+					<bibl default="false" status="draft">
+						Not. Sc., 1925, p. 48 (G. Mancini) - AE 1926 (1)
+					</bibl> 
+			
+					<bibl default="false" status="draft">
+						AE 1926, 0116 (2)
+					</bibl> 
+			
+					<bibl default="false" status="draft">
+						R. Paribeni, Le terme di Diocleziano e il Museo Nazionale Romano, Roma 1932, p. 140 nr. 289 (3)
+					</bibl> 
+			
+					<bibl default="false" status="draft">
+						CIMRM 0407 (4)
+					</bibl> 
+			
+					<bibl default="false" status="draft">
+						Zeitschr. Pap. Epigr., 2,3, 1968, p. 222 (I. M. Hackethal) (5)
+					</bibl> 
+			
+					<bibl default="false" status="draft">
+						Aufstieg und Niedergang der roemischen Welt, 16, 2, Berlin - New York 1978, pp. 1092-1094 (J. P. Palmer) (6)
+					</bibl> 
+			
+					<bibl default="false" status="draft">
+						Miscellanea (Tituli 2), Roma 1980, p. 174, nr. 7 (R. Mancini) (7)
+					</bibl> 
+			
+					<bibl default="false" status="draft">
+						R. Friggeri, La collezione epigrafica del Museo Nazionale Romano alle terme di Diocleziano, Roma 2001, p. 74, con foto (8)
+					</bibl> 
+			
+					<bibl default="false" status="draft">
+						HD024184 (A. Scheithauer) (9)
+					</bibl> 
+			
+					<bibl default="false" status="draft">
+						Terme di Diocleziano: la collezione epigrafica, Roma 2012, p. 272, nr. V, 8, con foto (G. Crimi) (10)
+					</bibl> 
+			
+				</listBibl>
+				</div>
+				
+				
+				<div type="edition" xml:lang="la" part="N" org="uniform" sample="complete"><head>Text</head><ab><lb n="1"/>
+				Pro salute et <choice><corr>reditum</corr><sic>reditu</sic></choice><lb n="2"/>et <choice><corr>victorias</corr><sic>victoris</sic></choice> <expan><abbr><am>Impp</am></abbr><ex>duorum</ex></expan> <expan><abbr><am>Caess</am></abbr><ex>duorum</ex></expan><lb n="3"/><expan><abbr>L</abbr><ex>uci</ex></expan> Septimi Severi Pii <expan><abbr>Pertin</abbr><ex>acis</ex></expan><lb n="4"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>Arab</abbr><ex>ici</ex></expan> <choice><corr>Adiabenici</corr><sic><expan><abbr>Adzab</abbr><ex>enici</ex></expan></sic></choice> <expan><abbr>Part</abbr><ex>hici</ex></expan> <expan><abbr>Max</abbr><ex>imi</ex></expan><lb n="5"/>et <expan><abbr>M</abbr><ex>arci</ex></expan> Aureli <expan><abbr>Antonin</abbr><ex>i</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan><lb n="6"/><del rend="erasure">et <expan><abbr>P</abbr><ex>ubli</ex><abbr/></expan> Septimi Gethe (:Getae) <expan><abbr>Caes</abbr><ex>aris</ex><abbr/></expan></del><lb n="7"/><del rend="erasure"><expan><abbr>fil</abbr><ex>ii</ex><abbr/></expan> et fratris</del> Augustorum <expan><abbr><am>nn</am></abbr><ex>nostrorum</ex></expan><lb n="8"/>totiusque domus divinae,<lb n="9"/>deum <expan><abbr>Invict</abbr><ex>um</ex></expan> <expan><abbr>Mithr</abbr><ex>am</ex></expan><lb n="10"/>Aurelius Zosimion et<lb n="11"/>Aurelius Titus <expan><abbr><am>Augg</am></abbr><ex>duorum</ex></expan> <expan><abbr>lib</abbr><ex>erti</ex></expan>,<lb n="12"/>suis impendiis conlo<lb break="no" n="13"/> caverunt, item antrum<lb n="14"/>suis sumptibus<lb n="15"/>exstructum fecerunt,<lb n="16"/>item consummatum<lb n="17"/>consacraverunt.
+				</ab></div>
+
+				<div type="apparatus" part="N" org="uniform" sample="complete">
+		
+					<p part="N">
+						Textus secundum (1)-(10), contulit Gabrielli a. 2009.
+					</p> 
+			
+				</div>
+			
+				<div type="commentary" part="N" org="uniform" sample="complete">
+				<p part="N"/>
+				</div>
+
+			</body>
+		</text>
+		</TEI>

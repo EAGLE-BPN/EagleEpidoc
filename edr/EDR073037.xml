@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="la" xml:base="ex-epidoctemplate.xml">
+		<teiHeader type="text">
+			<fileDesc>
+				<titleStmt>
+				<title>EDR073037</title>
+				</titleStmt>  
+				<publicationStmt>
+				<authority>Epigraphic Database Roma</authority>
+				<idno type="URI">http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR073037</idno>
+				<idno type="URI"/>
+				<availability default="false" status="unknown">
+					<licence target=" http://www.europeana.eu/rights/rr-f/">Reserved Rights - Free access via EDR</licence>
+				</availability>
+				</publicationStmt>
+				<sourceDesc default="false">
+				<msDesc>
+					<msIdentifier>
+						<country>
+						<placeName type="modernCountry" instant="false" full="yes">I</placeName>
+						</country>
+						<region>
+						<placeName type="modern" instant="false" full="yes"/>
+						</region>
+						<settlement>
+						<placeName instant="false" full="yes">Sepino (Campobasso)</placeName>                     
+						</settlement>
+						<repository>Sepino (Campobasso), località Altilia, Museo Documentario dell'Altilia, sezione teatro (inv. nr. 35536)</repository>
+						<collection/>
+						<idno/>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+						<supportDesc>
+							<support>
+								<objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">stela</objectType>
+								<material ref="http://www.eagle-network.eu/voc/material/lod/2">lapis</material>
+								<p part="N"/>
+								<dimensions unit="cm">
+								<height>130.00</height>
+								<width>74.00</width>
+								<depth>33.00</depth>
+								</dimensions>
+								<rs type="decoration"/>
+								<rs type="statPreserv">tit. mutilus</rs>
+							</support>
+						</supportDesc>
+						<layoutDesc>
+							<layout>
+								<rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/1">scalpro</rs>
+							</layout>
+						</layoutDesc>
+						</objectDesc>
+						<handDesc>
+						<handNote>
+							<width unit="cm"/>
+							<height unit="cm">3-7</height>
+						</handNote>
+						</handDesc>
+					</physDesc>
+					
+					<history>
+						<origin instant="false">
+
+						<origPlace instant="false">
+							<placeName type="provinceItalicRegion" instant="false" full="yes">Sam</placeName>
+							<placeName instant="false" full="yes">Saepinum</placeName>
+						</origPlace>
+						<origDate notBefore-custom="201" notAfter-custom="250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" instant="false">201 AD - 201 AD</origDate>
+						
+						</origin>
+						<provenance type="found"> 
+						<placeName instant="false" full="yes">Sepino (Campobasso), località Altilia, area archeologica, in un muro nei pressi della porta meridionale, a. 1925 (reimpiego)</placeName>
+						</provenance>
+					</history>
+				</msDesc>
+				</sourceDesc>
+			</fileDesc>
+				
+			<encodingDesc>
+				<p part="N">Marked-up according to the EpiDoc Guidelines</p>
+				<classDecl>
+				<taxonomy>
+					<category xml:id="representation">
+						<catDesc>Digitized other representations</catDesc>
+					</category>
+				</taxonomy>
+				</classDecl>
+			</encodingDesc>
+			<profileDesc>
+				<textClass default="false">
+		<keywords>
+		<term ref="http://www.eagle-network.eu/voc/typeins/lod/92">sepulcralis</term>
+		</keywords>
+		</textClass>
+
+				<langUsage default="false">
+				<language ident="ar">Arabic</language>
+				<language ident="en">English</language>
+				<language ident="fr">French</language>
+				<language ident="de">German</language>
+				<language ident="grc">Ancient Greek</language>
+				<language ident="grc-Latn">Transliterated Greek</language>
+				<language ident="el">Modern Greek</language>
+				<language ident="he">Hebrew</language>
+				<language ident="it">Italian</language>
+				<language ident="la">Latin</language>
+				<language ident="sp">Spanish</language>
+				</langUsage>
+			<creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+			<revisionDesc status="draft">
+			<change when="1970-01-01" who="ANDREA CARAPELLUCCI2" status="draft">
+			</change>
+
+			</revisionDesc>
+		</teiHeader>
+		
+			<facsimile>
+			
+					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/73/073037.jpg">
+						<desc>Epigrafe funeraria relativa al sepolcro di L. Neratius Iustus</desc>
+					</graphic>
+				
+			</facsimile>
+			
+		<text>
+			<body>
+					
+				<div type="bibliography" part="N" org="uniform" sample="complete">
+				<listBibl default="false">
+		
+					<bibl default="false" status="draft">
+						Not. Sc., 1926, pp. 246-248, nr. 4 con foto (A. Maiuri) - AE 1927 (1)
+					</bibl> 
+			
+					<bibl default="false" status="draft">
+						AE 1927, 0120 (2)
+					</bibl> 
+			
+					<bibl default="false" status="draft">
+						Sepino. Archeologia e continuità, Campobasso 1979, p. 122 con foto (P. Maribelli) (3)
+					</bibl> 
+			
+					<bibl default="false" status="draft">
+						Saepinum. Museo documentario dell'Altilia, Campobasso 1982, pp. 201-202 (P. Maribelli) (4)
+					</bibl> 
+			
+					<bibl default="false" status="draft">
+						HD025309 (A. Scheithauer) (5)
+					</bibl> 
+			
+					<bibl default="false" status="draft">
+						Giorn. It. Filol., 49, 1997, p. 30, nr. 5 (M. Buonocore) (6)
+					</bibl> 
+			
+					<bibl default="false" status="draft">
+						Temptanda viast. Nuevos estudios sobra la poesía epigráfica latina, Bellaterra 2006, p. 15, nr. 4* (7)
+					</bibl> 
+			
+				</listBibl>
+				</div>
+				
+				
+				<div type="edition" xml:lang="la" part="N" org="uniform" sample="complete"><head>Text</head><ab><lb n="1"/>
+				<unclear>D</unclear>(is) <supplied reason="lost"><expan><abbr>M</abbr><ex>anibus</ex><abbr>s</abbr><ex>acrum</ex></expan></supplied>.<lb n="2"/>Have <expan><abbr>Ner</abbr><ex>ati</ex></expan> Iuste be<hi rend="ligature">n̂e</hi> <expan><abbr>me</abbr><ex>rens</ex></expan>!<lb n="3"/><expan><abbr>L</abbr><ex>ucio</ex></expan> Neratio Iusto<lb n="4"/><expan><abbr>mil</abbr><ex>iti</ex></expan> <choice><corr>cohortis</corr><sic><expan><abbr>chor</abbr><ex>tis</ex></expan></sic></choice> X̅ <expan><abbr>urb</abbr><ex>anae</ex></expan>, vixì(t)<lb n="5"/>annis XXIII <expan><abbr>mens</abbr><ex>ibus</ex></expan> VIII;<lb n="6"/>hic quo anno in <expan><abbr>praetor</abbr><ex>ium</ex></expan><lb n="7"/>transiret et barbas po<hi rend="ligature">n̂e</hi><lb break="no" n="8"/> ret mors <choice><corr>inihbuit</corr><sic>inhibuit</sic></choice>; infelicis<lb break="no" n="9"/> simi pare<unclear>n</unclear>tes Neratius Libe<lb break="no" n="10"/> ralis et Vettia Hermione<lb n="11"/>pientissimo <expan><abbr>fil</abbr><ex>io</ex></expan> sibique vivi<lb n="12"/>fecerunt quod noluerunt;<lb n="13"/>mors inimica tibi fato<lb n="14"/>data;<lb n="15"/><choice><corr>liquissti</corr><sic>liquisti</sic></choice> miseros in luce<lb n="16"/>parentes; aetatem, flo<lb break="no" n="17"/> res, processus <choice><corr>apstulît</corr><sic>abstulit</sic></choice> una<lb n="18"/>dies.
+				</ab></div>
+
+				<div type="apparatus" part="N" org="uniform" sample="complete">
+		
+					<p part="N">
+						Textus secundum (6), aliter (1)-(5), contulit M. Buonocore a. 2013 (ex schedis).
+					</p> 
+			
+					<p part="N">
+						V. 1: om. (1)-(5).
+					</p> 
+			
+					<p part="N">
+						V. 2: m(erenti) (3)-(4).
+					</p> 
+			
+					<p part="N">
+						V. 3: L longa.
+					</p> 
+			
+					<p part="N">
+						V. 4: cohor(tis), vixit (3)-(4), haud recte; chor(tis) pro cohor(tis).
+					</p> 
+			
+					<p part="N">
+						V. 6: O in praetor(ium), lettera nana.
+					</p> 
+			
+					<p part="N">
+						V. 8: inhibuit (1)-(5), haud recte; inihbuit pro inhibuit.
+					</p> 
+			
+					<p part="N">
+						V. 10: Vitta (1)-(5), haud recte.
+					</p> 
+			
+					<p part="N">
+						V. 14: O di fato, lettera nana.
+					</p> 
+			
+					<p part="N">
+						V. 15: liquisti (3)-(4), haud recte; liquissti pro liquisti.
+					</p> 
+			
+					<p part="N">
+						V. 17: abstulit (1)-(5), haud recte; apstulit pro abstulit.
+					</p> 
+			
+					<p part="N">
+						Specchio epigrafico 98 x 63 cm.
+					</p> 
+			
+					<p part="N">
+						Vv. 6-18 carmen irregolare dal punto di vista metrico (1).
+					</p> 
+			
+				</div>
+			
+				<div type="commentary" part="N" org="uniform" sample="complete">
+				<p part="N"/>
+				</div>
+
+			</body>
+		</text>
+		</TEI>

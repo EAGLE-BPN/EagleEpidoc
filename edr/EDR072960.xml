@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="la" xml:base="ex-epidoctemplate.xml">
+		<teiHeader type="text">
+			<fileDesc>
+				<titleStmt>
+				<title>EDR072960</title>
+				</titleStmt>  
+				<publicationStmt>
+				<authority>Epigraphic Database Roma</authority>
+				<idno type="URI">http://www.edr-edr.it/edr_programmi/res_complex_comune.php?do=book&amp;id_nr=EDR072960</idno>
+				<idno type="URI"/>
+				<availability default="false" status="unknown">
+					<licence target=" http://www.europeana.eu/rights/rr-f/">Reserved Rights - Free access via EDR</licence>
+				</availability>
+				</publicationStmt>
+				<sourceDesc default="false">
+				<msDesc>
+					<msIdentifier>
+						<country>
+						<placeName type="modernCountry" instant="false" full="yes">I</placeName>
+						</country>
+						<region>
+						<placeName type="modern" instant="false" full="yes"/>
+						</region>
+						<settlement>
+						<placeName instant="false" full="yes">Sorrento (Napoli)</placeName>                     
+						</settlement>
+						<repository>Sorrento (Napoli), museo Correale </repository>
+						<collection/>
+						<idno/>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+						<supportDesc>
+							<support>
+								<objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/297">tubus</objectType>
+								<material>plumbum</material>
+								<p part="N"/>
+								<dimensions unit="cm">
+								<height>3.00</height>
+								<width>176.00</width>
+								<depth>12.00</depth>
+								</dimensions>
+								<rs type="decoration"/>
+								<rs type="statPreserv" ref="http://www.eagle-network.eu/voc/statepreserv/lod/15">tit. fragmentum</rs>
+							</support>
+						</supportDesc>
+						<layoutDesc>
+							<layout>
+								<rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/8">litt. ex forma</rs>
+							</layout>
+						</layoutDesc>
+						</objectDesc>
+						<handDesc>
+						<handNote>
+							<width unit="cm"/>
+							<height unit="cm">0,4</height>
+						</handNote>
+						</handDesc>
+					</physDesc>
+					
+					<history>
+						<origin instant="false">
+
+						<origPlace instant="false">
+							<placeName type="provinceItalicRegion" instant="false" full="yes">LaC</placeName>
+							<placeName instant="false" full="yes">Surrentum</placeName>
+						</origPlace>
+						<origDate notBefore-custom="371" notAfter-custom="430" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" instant="false">371 AD - 371 AD</origDate>
+						
+						</origin>
+						<provenance type="found"> 
+						<placeName instant="false" full="yes">Sorrento (Napoli), vicolo I Tasso</placeName>
+						</provenance>
+					</history>
+				</msDesc>
+				</sourceDesc>
+			</fileDesc>
+				
+			<encodingDesc>
+				<p part="N">Marked-up according to the EpiDoc Guidelines</p>
+				<classDecl>
+				<taxonomy>
+					<category xml:id="representation">
+						<catDesc>Digitized other representations</catDesc>
+					</category>
+				</taxonomy>
+				</classDecl>
+			</encodingDesc>
+			<profileDesc>
+				<textClass default="false">
+		<keywords>
+		<term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ. priv.que</term>
+		</keywords>
+		</textClass>
+
+				<langUsage default="false">
+				<language ident="ar">Arabic</language>
+				<language ident="en">English</language>
+				<language ident="fr">French</language>
+				<language ident="de">German</language>
+				<language ident="grc">Ancient Greek</language>
+				<language ident="grc-Latn">Transliterated Greek</language>
+				<language ident="el">Modern Greek</language>
+				<language ident="he">Hebrew</language>
+				<language ident="it">Italian</language>
+				<language ident="la">Latin</language>
+				<language ident="sp">Spanish</language>
+				</langUsage>
+			<creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+			<revisionDesc status="draft">
+			<change when="1970-01-01" who="GEMMA CORAZZA" status="draft">
+			</change>
+
+			</revisionDesc>
+		</teiHeader>
+		
+			<facsimile>
+			
+					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/72/072960-1.jpg">
+						<desc/>
+					</graphic>
+				
+					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/72/072960-2.jpg">
+						<desc/>
+					</graphic>
+				
+					<graphic url="http://www.edr-edr.it/foto_epigrafi/immagini_uso/72/072960-3.jpg">
+						<desc/>
+					</graphic>
+				
+			</facsimile>
+			
+		<text>
+			<body>
+					
+				<div type="bibliography" part="N" org="uniform" sample="complete">
+				<listBibl default="false">
+		
+					<bibl default="false" status="draft">
+						Not. Sc., 1924, p. 383 (A. Levi) - AE 1925 (1)
+					</bibl> 
+			
+					<bibl default="false" status="draft">
+						AE 1925, 0091 (2)
+					</bibl> 
+			
+					<bibl default="false" status="draft">
+						M.M. Magalhaes, Storia, istituzioni e prosopografia di Surrentum romana, Castellammare di Stabia 2003, p. 142 sg., con foto (3)
+					</bibl> 
+			
+					<bibl default="false" status="draft">
+						HD025810 (H. Niquet) (4)
+					</bibl> 
+			
+				</listBibl>
+				</div>
+				
+				
+				<div type="edition" xml:lang="la" part="N" org="uniform" sample="complete"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+				<supplied reason="lost">---</supplied><supplied reason="undefined" evidence="previouseditor">s</supplied> <supplied reason="undefined" evidence="previouseditor">tr</supplied><unclear>i</unclear>bunus patronus et defensor Iuliani patroni<lb n="2"/><lb n="3"/></ab></div><div n="2" type="textpart"><ab><lb n="1"/><lb n="2"/><supplied reason="lost">---</supplied> filius refudit curante <expan><abbr>Fl</abbr><ex>avio</ex></expan> Vitulo II <supplied reason="undefined" evidence="previouseditor">curatore</supplied> <supplied reason="undefined" evidence="previouseditor">r</supplied>(ei) <supplied reason="undefined" evidence="previouseditor">p</supplied>(ublicae)
+				</ab></div></div>
+
+				<div type="apparatus" part="N" org="uniform" sample="complete">
+		
+					<p part="N">
+						Textus secundum (1), contulit G. Corazza a. 2009
+					</p> 
+			
+				</div>
+			
+				<div type="commentary" part="N" org="uniform" sample="complete">
+				<p part="N"/>
+				</div>
+
+			</body>
+		</text>
+		</TEI>
