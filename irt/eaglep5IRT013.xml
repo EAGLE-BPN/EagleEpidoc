@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT013" xml:lang="en">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Votive</rs> offering by Fl. Bonifatius </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="URI">http://irt.kcl.ac.uk/irt2009/IRT013.html</idno>
+            <availability default="false" status="unknown">
+               <licence>
+                  <p part="N">Creative Commons licence Attribution UK 2.0
+                  (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                  <p part="N">All reuse or distribution of this work must contain somewhere a link back to the URL
+                  <ref>http://irt.kcl.ac.uk/</ref>
+                  </p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <bibl xml:id="irt1952" default="false" status="draft">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>,
+                     <pubPlace>Rome</pubPlace>: <publisher>British School at Rome</publisher>,
+                     <date instant="false">1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <placeName type="modern" instant="false" full="yes">Libya</placeName>
+                  </country>
+                  <region>
+                     <placeName type="modern" ref="http://www.geonames.org/2208578/marsa-zawaghah.html" instant="false" full="yes">Marsa
+                     Zawaghah</placeName>
+                  </region>
+                  <settlement>
+                     <placeName instant="false" full="yes">Findspot</placeName>
+                  </settlement>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>mosaic panel</objectType>
+                           <p part="N"> Part of a <rs type="objectType">mosaic</rs>
+                              <rs type="objectType">panel</rs> comprising the left-hand side of a <rs type="decoration">tabella ansata</rs> (die,<dimensions>
+                                 <width unit="metre">0.41</width>
+                                 <height unit="metre">0.41</height>
+                              </dimensions>)</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Letters within the tabella.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Lettering: <height unit="metre" atLeast="0.07" atMost="0.09">0.07-0.09</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <p part="N">
+            Text constituted from
+            Transcription (Reynolds, Ward-Perkins)
+         </p>
+                     <origPlace instant="false">
+                        <placeName instant="false" full="yes" ref="www.trismegistos.org/place/016995">Sabratha: Church III</placeName>
+                        <placeName type="provinceItalicRegion" instant="false" full="yes" ref="www.trismegistos.org/place/033224">Tripolitania</placeName>
+                     </origPlace>
+                     <origDate notBefore="0301" notAfter="0400" precision="low" instant="false">The floor is of the fourth century, but antedates the church in its present form.</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent default="false">
+                        <event type="found" instant="false">
+                           <p part="N">
+                              <placeName type="ancientFindspot" ref="http://atlantides.org/batlas/abrotonum-sabratha-35-e2" key="db659" instant="false" full="yes">Sabratha</placeName>: <rs type="monuList" key="db838">Church III</rs>: in the
+                  centre of the mosaic floor between the altar and the bema of the Church (Reg. III
+                  ins. 4).</p>
+                        </event>
+                        <event type="observed" instant="false">
+                           <p part="N">Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage default="false">
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass default="false">
+            <keywords>
+               <term ref="http://www.eagle-network.eu/voc/typeins/lod/83">Votive</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-03-11" who="PML" status="draft">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8), checked conformance to EALGE Metadata Model, added licence statements to figures and full URLs.</change>
+         <change when="2008-09-09" who="ZA" status="draft">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV" status="draft">Added Figures</change>
+         <change when="2009-08-24" who="RV" status="draft">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic n="0017" url="http://images.cch.kcl.ac.uk/irt/liv/full/0017.jpg">
+         <desc>
+                  Ward-Perkins Archive, BSR (BSR 47.IX.10)
+               <ref type="licence" target="http://creativecommons.org/licenses/by-sa/3.0/">The British School at Rome: CC-By-SA</ref>
+         </desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+
+         
+
+         
+
+         
+
+         
+
+         
+
+
+
+         <div type="bibliography" part="N" org="uniform" sample="complete">
+            <head>Bibliography</head>
+            <p part="N">
+               <bibl xml:id="romanelli1940" default="false" status="draft">
+                  <author>
+                     <name full="yes" instant="false">Romanelli</name>
+                  </author>, <title level="m">Atti del IV Congresso di Archeologia Cristiana</title>, Rome, 1940,
+                     <biblScope>I:261</biblScope>
+               </bibl>.</p>
+         </div>
+
+         
+
+         <div type="edition" xml:lang="la" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <head xml:lang="en">Text</head>
+            <ab part="N">
+               <lb n="1"/>
+               <persName type="attested" instant="false" full="yes">
+                  <name type="gentilicium" nymRef="Flauius" full="yes" instant="false">
+                     <expan instant="false">
+                        <abbr>Fl</abbr>
+                        <ex instant="false">auius</ex>
+                     </expan>
+                  </name>
+                  <name type="cognomen" nymRef="Bon" full="yes" instant="false">Bon<gap reason="lost" extent="unknown" unit="character" instant="false"/></name>
+               </persName>
+               <lb n="2"/>
+               <w lemma="exceptor" part="N">excepto<unclear instant="false">r</unclear></w>
+               <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+               <lb n="3"/>
+               <w part="F">m</w>
+               <w lemma="se" part="N">suis</w>
+               <w lemma="de" part="F">de</w>
+               <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+               <lb n="4"/>
+               <w lemma="uotum" part="N">uotum</w>
+               <w lemma="soluo" part="N">s<supplied reason="lost" instant="false">oluit</supplied></w>
+            </ab>
+         </div>
+
+         <div type="apparatus" part="N" org="uniform" sample="complete">
+            <head>Apparatus</head>
+            <p part="N">
+               <app>
+                  <rdg resp="#romanelli1940">
+                     <expan instant="false">
+                        <abbr>Fl</abbr>
+                        <ex instant="false">auius</ex>
+                     </expan>Boni<supplied reason="lost" instant="false">fatius</supplied> exceptor <supplied reason="lost" instant="false">cu</supplied>m suis
+                        de<supplied reason="lost" instant="false">o</supplied> uotum s<supplied reason="lost" instant="false">oluit</supplied>
+                  </rdg>
+                  <note anchored="true">l. 2 can more easily be read as <foreign xml:lang="la">EXCEPTO N<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+                     </foreign>
+                  </note>
+               </app>
+            </p>
+         </div>
+
+         <div type="translation" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <head>Translation</head>
+            <p part="N">Flavius Bon<supplied reason="lost" cert="low" instant="false">ifatius</supplied> shorthand writer,
+                  <supplied reason="lost" instant="false">with</supplied> his family, paid his <supplied reason="lost" instant="false">vow</supplied></p>
+         </div>
+
+         <div type="commentary" part="N" org="uniform" sample="complete">
+            <head>Commentary</head>
+            <p part="N">The most recent excavation (1949) appears to establish that the mosaic is
+               contemporary with an earlier form of the church, and is therefore Christian.</p>
+         </div>
+
+         
+      </body>
+   </text>
+</TEI>

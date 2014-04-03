@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="ex-epidoctemplate.xml" xml:lang="Italian">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sepulcralis auf Tafel</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphic Dabatase Bari</authority>
+            <idno type="URI">www.edb.uniba.it/epigraph/975</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                           <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                           <dimensions unit="cm">
+                              <height/>
+                              <width/>
+                              <depth/>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/114">Insculptus</rs>
+                           <rs type="metre">Non-Metrical</rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="http://www.trismegistos.org/place/2058">Rome</placeName>
+                     </origPlace>
+                     <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" notAfter-custom="472" notBefore-custom="472">472 AD - 472 AD</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Sepulcralis</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="de">German</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="it">Italian</language>
+            <language ident="sp">Spanish</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="la">Latin</language>
+            <language ident="fr">French</language>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="he">Hebrew</language>
+            <language ident="grc">Ancient Greek</language>
+         </langUsage>
+         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2003-11-11" who="Carlo Carletti">First version</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="http://media.regesta.com/dm_0/PCAS/PCASST02/low/foto/Seb/Seb_Td/Seb_Td_060.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl>ICVR V, 13405</bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>1<supplied reason="lost">---</supplied>e1 quae vixit sem/<supplied reason="lost">per</supplied><gap reason="lost" extent="unknown" unit="character"/> LV deposita in<lb n="2"/>pace die III k<supplied reason="lost">al(endas) --- c</supplied>c<expan><ex>on</ex><abbr>ss</abbr><ex>ulatu</ex></expan> <expan><abbr>Fl</abbr><ex>aviorum</ex></expan> Festi<lb n="3"/>et Marcia<supplied reason="lost">ni <expan><abbr>vv</abbr><ex>irorum</ex><abbr>cc</abbr><ex>larissimorum</ex></expan></supplied></ab></div>
+      </body>
+   </text>
+</TEI>

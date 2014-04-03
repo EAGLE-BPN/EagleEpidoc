@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT005" xml:lang="en">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to the Genius of Augustus </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="URI">http://irt.kcl.ac.uk/irt2009/IRT005.html</idno>
+            <availability default="false" status="unknown">
+               <licence>
+                  <p part="N">Creative Commons licence Attribution UK 2.0
+                  (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+                  <p part="N">All reuse or distribution of this work must contain somewhere a link back to the URL
+                  <ref>http://irt.kcl.ac.uk/</ref>
+                  </p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <bibl xml:id="irt1952" default="false" status="draft">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>,
+                     <pubPlace>Rome</pubPlace>: <publisher>British School at Rome</publisher>,
+                     <date instant="false">1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <placeName type="modern" instant="false" full="yes">Libya</placeName>
+                  </country>
+                  <region>
+                     <placeName type="modern" ref="http://www.geonames.org/2208578/marsa-zawaghah.html" instant="false" full="yes">Marsa
+                     Zawaghah</placeName>
+                  </region>
+                  <settlement>
+                     <placeName instant="false" full="yes">Sabratha Museum.</placeName>
+                  </settlement>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/53">base</objectType>
+                           <p part="N">Upper part of a moulded <rs type="objectType">base</rs> (width x surviving height x
+               depth <dimensions>
+                                 <width>0.38</width>
+                                 <height unit="metre">0.47</height>
+                                 <depth unit="metre">0.35</depth>
+                              </dimensions>) of coarse <material>grey
+                  limestone</material>. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a moulded panel (die <dimensions>
+                              <width>0.15</width>
+                              <height>0.28</height>
+                           </dimensions>); decorated
+               on two sides with <rs type="decoration">simple scroll and bird ornament</rs>. Socket
+               for statue above.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Third century capitals: <height unit="metre">0.035</height>. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <p part="N">
+            Text constituted from
+            Transcription (Reynolds, Ward-Perkins)
+         </p>
+                     <origPlace instant="false">
+                        <placeName instant="false" full="yes" ref="www.trismegistos.org/place/016995">Sabratha: Reg. II</placeName>
+                        <placeName type="provinceItalicRegion" instant="false" full="yes" ref="www.trismegistos.org/place/033224">Tripolitania</placeName>
+                     </origPlace>
+                     <origDate notBefore="0201" notAfter="0300" precision="low" instant="false">Third century A.D. (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent default="false">
+                        <event type="found" instant="false">
+                           <p part="N">
+                              <placeName type="ancientFindspot" ref="http://atlantides.org/batlas/abrotonum-sabratha-35-e2" key="db659" instant="false" full="yes">Sabratha</placeName>: <rs type="monuList" key="db856">Reg. II</rs>: in the
+                  open space between ins. 12 and 13</p>
+                        </event>
+                        <event type="observed" instant="false">
+                           <p part="N">
+                              <rs type="monuList" key="db660">Sabratha Museum</rs>.</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage default="false">
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass default="false">
+            <keywords>
+               <term ref="http://www.eagle-network.eu/voc/typeins/lod/79">Dedication</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-03-11" who="PML" status="draft">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8), checked conformance to EALGE Metadata Model, added licence statements to figures and full URLs.</change>
+         <change when="2008-09-09" who="ZA" status="draft">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV" status="draft">Added Figures</change>
+         <change when="2009-08-24" who="RV" status="draft">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic n="0006" url="http://images.cch.kcl.ac.uk/irt/liv/full/0006.jpg">
+         <desc>
+                  Ward-Perkins Archive, BSR (BSR 47.VIII.26 (left side))
+               <ref type="licence" target="http://creativecommons.org/licenses/by-sa/3.0/">The British School at Rome: CC-By-SA</ref>
+         </desc>
+      </graphic>
+      <graphic n="0007" url="http://images.cch.kcl.ac.uk/irt/liv/full/0007.jpg">
+         <desc>
+                  Ward-Perkins Archive, BSR (BSR 48.XVIII.34)
+               <ref type="licence" target="http://creativecommons.org/licenses/by-sa/3.0/">The British School at Rome: CC-By-SA</ref>
+         </desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+
+         
+
+         
+
+         
+
+         
+
+         
+
+
+         <div type="bibliography" part="N" org="uniform" sample="complete">
+            <head>Bibliography</head>
+            <p part="N">Not previously published.</p>
+         </div>
+
+         
+
+         <div type="edition" xml:lang="la" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <head xml:lang="en">Text</head>
+            <ab part="N">
+               <lb n="1"/>
+               <persName type="divine" instant="false" full="yes">
+                  <w lemma="genius" part="N">Genio</w>
+               </persName>
+               <lb n="2"/>
+               <w lemma="frugifer" part="N">frugi<lb n="3" break="no"/>fero</w>
+               <surplus instant="false">a</surplus>
+               <lb n="4"/>
+               <persName type="emperor" instant="false" full="yes">
+                  <name type="cognomen" nymRef="Augustus" full="yes" instant="false">
+                     <expan instant="false">
+                        <abbr>Aug</abbr>
+                        <ex instant="false">usti</ex>
+                     </expan>
+                  </name>
+               </persName>
+               <lb n="5"/>
+               <persName type="attested" instant="false" full="yes"><name type="gentilicium" nymRef="Iunius" full="yes" instant="false">Iunius</name>
+                  <lb n="6"/><name type="cognomen" nymRef="Crescens" full="yes" instant="false">Cres<lb n="7" break="no"/>c<supplied reason="lost" instant="false">e</supplied></name>n<unclear instant="false">s</unclear></persName>
+               <lb n="8"/>
+               <gap reason="lost" quantity="1" unit="line" instant="false"/>
+            </ab>
+         </div>
+
+         <div type="translation" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <head>Translation</head>
+            <p part="N">To the fruit-bearing Genius of Augustus; Junius Crescens <supplied reason="subaudible" instant="false">gave and dedicated this</supplied>. </p>
+         </div>
+
+         <div type="commentary" part="N" org="uniform" sample="complete">
+            <head>Commentary</head>
+            <p part="N">No comment.</p>
+         </div>
+
+         
+      </body>
+   </text>
+</TEI>

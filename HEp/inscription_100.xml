@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" xml:base="ex-epidoctemplate.xml">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Glans inscripta de Q. Sertorio</title>
+            </titleStmt>
+            <publicationStmt>
+                <idno type="URL">http://eda-bea.es/pub/record_card_1.php?rec=100</idno>
+                <idno type="TM_id"/>
+                <availability default="false" status="unknown">
+                    <licence target="http://creativecommons.org/publicdomain/zero/1.0/">Licensed 
+                        under a Creative Commons CC0 1.0 Universal  Public Domain Dedication licence.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc default="false">
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <placeName type="modern" instant="false" full="yes">España</placeName>
+                        </country>
+                        <region>
+                            <placeName type="modern" instant="false" full="yes">Castilla-La Mancha</placeName>
+                        </region>
+                        <settlement>
+                            <placeName instant="false" full="yes">Guadalajara, Guadalajara, Castilla-La Mancha, España</placeName>                     
+                        </settlement>
+                        <repository/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="www.eagle-network.eu/voc/objtyp/">Bala de honda</objectType>
+                                    <material ref="www.eagle-network.eu/voc/material/metal">Metal</material>
+                                    <p part="N">Glande de plomo con inscripción en relieve en ambas caras</p>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration"/>
+                                    <rs type="statPreserv">Bueno</rs>
+                                    <rs type="inscriptionType" ref="http://www.eagle-network.eu/voc/typeins/lod/136">Instrumentum</rs>
+                                <material ref="www.eagle-network.eu/voc/material/plumbum">Plomo</material></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="engravingTechnique"/>
+                                    <dimensions>
+                                        <width unit="cm"/>
+                                        <height unit="cm"/>
+                                    </dimensions>
+                                    <rs type="metre"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height unit="cm" min="0.5" max="04">04 - 0.5</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin instant="false">
+                            <origPlace instant="false">
+                                <placeName type="provinceItalicRegion" instant="false" full="yes">Hispania Citerior</placeName>
+                                <placeName instant="false" full="yes"/>
+                            </origPlace>
+                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar" instant="false">Siglo I a.C.</origDate>
+                        </origin>
+                        <provenance type="found">                            
+                            <placeName instant="false" full="yes">Taracena</placeName>
+                            <placeName type="modernCountry" instant="false" full="yes">España</placeName>
+                            <placeName type="modernRegion" instant="false" full="yes">Castilla-La Mancha</placeName>
+                            <placeName type="modernProvince" instant="false" full="yes">Guadalajara</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+                <encodingDesc>
+            <p part="N">Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage default="false">
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+                <!-- all other languages -->
+            </langUsage>
+            <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change when="2013-08-26" who="HE epidoc generator" status="draft">created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile/>
+    <text>
+        <body>
+                       
+            <div type="bibliography" part="N" org="uniform" sample="complete">
+            <listBibl default="false"><bibl default="false" status="draft">J.M. Abascal, «Inscripciones inéditas y revisadas de la Hispania Citerior», Archivo Español de Arqueología 63, 1990, 274-275, fig. 12.5</bibl><bibl default="false" status="draft"> HEp 4, 1994, 464</bibl><bibl default="false" status="draft"> AE 1990, 601.</bibl></listBibl></div>
+            
+            <div type="edition" part="N" org="uniform" sample="complete"><head>Text</head><div n="1" type="textpart" part="N" org="uniform" sample="complete"><ab part="N"><lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="1"/>
+                 <orig>T</orig>ext
+                <expan instant="false"><abbr>Q</abbr><ex instant="false">uinti</ex></expan> <expan instant="false"><abbr>Sert</abbr><ex instant="false">ori</ex></expan><lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="2"/><supplied reason="lost" instant="false">p</supplied>ro <expan instant="false"><abbr>co(n)s</abbr><ex instant="false">ulis</ex></expan> </ab></div><div n="2" type="textpart" part="N" org="uniform" sample="complete"><ab part="N"><lb xmlns:tei="http://www.tei-c.org/ns/1.0" n="1"/> <orig>S</orig>er<supplied reason="lost" cert="low" instant="false">t(ori)</supplied>
+            </ab></div></div>
+
+            <div type="apparatus" part="N" org="uniform" sample="complete"><p part="N"/></div>
+
+            <div type="translation" xml:lang="Spanish" part="N" org="uniform" sample="complete">
+                <p part="N">
+                    <ref type="URI"/>
+                    <ref type="URL">http://eda-bea.es/pub/translations/100</ref>
+                </p>
+            </div>
+
+            <div type="commentary" part="N" org="uniform" sample="complete"><p part="N"/></div>
+
+        </body>
+    </text>
+</TEI>
