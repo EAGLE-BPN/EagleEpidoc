@@ -1,19 +1,21 @@
 EagleEpidoc
 ===========
 
-Sample files from Eagle projects going to Epidoc: for people with more experience to check
+Dump of files from EAGLE project in EpiDoc: you can get these one by one from the EAGLE website, or get everything which is fed to EAGLE from this repo.
 
-NOTE THAT THIS FILES ARE NOT STABLE NEITHER DEFINITIVE AND ARE A WORK IN PROGRESS!
+NOTE THAT THIS FILES ARE NOT STABLE NEITHER DEFINITIVE AND KEEP BEEING A WORK IN PROGRESS!
 
-samples from any file in the Epigraphic Database Heidelberg can be seen by adding .xml to the URI of each text
+the mapping of most databases can be found in this old table: http://goo.gl/VNxFDs
+
+lists of comparing IDS can be found here: in ../EAGLE ids
+
+Updated XML files from the Epigraphic Database Heidelberg can be seen by adding .xml to the URI of each text
 
 http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD067013.xml
 
-the mapping of all databases can be found here: http://goo.gl/VNxFDs
+This files arrive to EAGLE in different formats and are then transformed using different conversion tools, most of which are stored here:
 
-after this step files will go through stages of automatized mark up to get a basic leiden encoding, possibly using this tool
-
-https://github.com/PietroLiuzzo/epidocupconversion
+https://github.com/EAGLE-BPN/epidocupconversion
 
 
 
