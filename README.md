@@ -7,7 +7,7 @@ NOTE THAT THIS FILES ARE NOT STABLE NEITHER DEFINITIVE AND KEEP BEEING A WORK IN
 
 the mapping of most databases can be found in this old table: http://goo.gl/VNxFDs
 
-lists of comparing IDS can be found here: in ../EAGLE ids
+lists of comparing IDS can be found here: in https://github.com/EAGLE-BPN/EAGLE ids
 
 Updated XML files from the Epigraphic Database Heidelberg can be seen by adding .xml to the URI of each text
 
