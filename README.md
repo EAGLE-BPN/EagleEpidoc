@@ -3,7 +3,8 @@ EagleEpidoc
 
 Dump of files from EAGLE project in EpiDoc: you can get these one by one from the EAGLE website, or get everything which is fed to EAGLE from this repo.
 
-NOTE THAT THIS FILES ARE NOT STABLE NEITHER DEFINITIVE AND KEEP BEEING A WORK IN PROGRESS!
+NOTE THAT THESE FILES ARE NOT STABLE NEITHER DEFINITIVE AND KEEP BEEING A WORK IN PROGRESS!
+Nevertheless you could find handy to start your project from some or all of these files.
 
 the mapping of most databases can be found in this old table: http://goo.gl/VNxFDs
 
