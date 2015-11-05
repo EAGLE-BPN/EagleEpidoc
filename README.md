@@ -1,5 +1,6 @@
 EagleEpidoc
 ===========
+These files are in Dropbox becuase GIT suggest to put large files there.
 
 Dump of files from EAGLE project in EpiDoc: you can get these one by one from the EAGLE website, or get everything which is fed to EAGLE from this repo.
 
